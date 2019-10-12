@@ -1,0 +1,27 @@
+@media only screen and (min-width: 32.5em) {
+
+    .header-img {
+        width: 130px;
+        height: auto;
+    }  
+    .header-name{
+        font-size: 33px;
+    }
+    .header-motto {
+        font-size: 18px;
+    }
+    
+    .navigation a {
+        font-size: 18px;
+    }
+    .main-title {
+        font-size: 22px;
+    }
+    .contentbox , .contentbox-5daysforecast {
+        font-size: 18px;
+    }
+    footer {
+        font-size: 18px;
+    }
+
+}

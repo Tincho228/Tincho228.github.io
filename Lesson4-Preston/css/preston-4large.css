@@ -1,0 +1,41 @@
+/* Media Query for medium + screens */
+
+/*Hamburguer button confgiguration*/
+
+@media only screen and (min-width: 60em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: white;
+	}
+	.header-img {
+        width: 150px;
+        height: auto;
+    }  
+    .header-name{
+        font-size: 35px;
+    }
+    .header-motto {
+		font-size: 20px;
+	}
+	main {
+		width: 90%;
+		margin: auto;
+	}
+	.main-title {
+		font-size: 24px;
+	}
+	footer {
+		width: 90%;
+		margin: auto;
+	}
+}
+

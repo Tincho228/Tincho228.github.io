@@ -35,12 +35,19 @@ a:hover {
        text-align: center;
        color:white;
    }
+    footer p {
+        font-size: 18px;
+    }
+    .ref {
+        color: rgb(245, 206, 206);
+    }
+   
    main, h2 {
        max-width: 900px;
        margin: 0 auto; 
        padding: 15px;
        font-family: Sans-serif;
-       font-size: 1rem;
+       font-size: 1.5rem;
    }
    h1 {
        color: white;

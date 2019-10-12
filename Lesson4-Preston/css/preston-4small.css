@@ -1,0 +1,140 @@
+/*Hamburguer button configuration - small screen*/
+
+
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: #0788E8;
+	
+}
+.navigation {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+.navigation li {
+	display: none;
+	border: 1px solid rgb(188, 193, 197);
+}
+.navigation li:first-child {
+	display: block;
+	border: none;
+}
+.navigation a {
+	display: block;
+	color: #FFFF;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+.navigation a:hover {
+	color: #000;
+	background-color: #e6f2ff;
+}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+.responsive li {
+	display: block;
+}
+
+/*Frame configuration - Header - Nav - Main
+Footer*/
+
+
+header {
+    width: 100%;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background: rgba(7,232,161,1);
+background: -moz-linear-gradient(left, rgba(7,232,161,1) 0%, rgba(143,202,230,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(7,232,161,1)), color-stop(100%, rgba(143,202,230,1)));
+background: -webkit-linear-gradient(left, rgba(7,232,161,1) 0%, rgba(143,202,230,1) 100%);
+background: -o-linear-gradient(left, rgba(7,232,161,1) 0%, rgba(143,202,230,1) 100%);
+background: -ms-linear-gradient(left, rgba(7,232,161,1) 0%, rgba(143,202,230,1) 100%);
+background: linear-gradient(to right, rgba(7,232,161,1) 0%, rgba(143,202,230,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#07e8a1', endColorstr='#8fcae6', GradientType=1 );
+}
+.header-img {
+    width: 100px;
+    height: auto;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+.header-motto {
+    text-align: center;
+    font-style: italic;
+    color: #0788E8;
+    margin-left: 20px;
+
+}
+.header-name {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-size: 30px;
+    color: #0037FF;
+    
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    background: rgba(7,232,161,1);
+    /*gradient configuration*/
+background: -moz-linear-gradient(top, rgba(7,232,161,1) 0%, rgba(7,135,232,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(7,232,161,1)), color-stop(100%, rgba(7,135,232,1)));
+background: -webkit-linear-gradient(top, rgba(7,232,161,1) 0%, rgba(7,135,232,1) 100%);
+background: -o-linear-gradient(top, rgba(7,232,161,1) 0%, rgba(7,135,232,1) 100%);
+background: -ms-linear-gradient(top, rgba(7,232,161,1) 0%, rgba(7,135,232,1) 100%);
+background: linear-gradient(to bottom, rgba(7,232,161,1) 0%, rgba(7,135,232,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#07e8a1', endColorstr='#0787e8', GradientType=0 );
+}
+.main-title{
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size:20px;
+    color: #0040ff	;
+}
+
+.contentbox , .contentbox-5daysforecast {
+    line-height: 50px;
+    border: 1px dashed #6699ff ;
+    padding: 10px;
+    margin-bottom:5px;
+    background-color: #66d9ff;
+    font-style: italic;
+    font-size: 16px;
+}
+footer{
+    width: 100%;
+    background-color:#0788E8;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+footer p {
+    margin: 10px 0 5px 0;
+}
+.footer-date {
+    margin: 5px 0 10px 0;
+}
+.footer-link {
+    color:white;
+    text-decoration: none;
+    padding-left: 4px;
+}
+/* font-family: 'Roboto', sans-serif;
+           font-family: 'PT Serif', serif;*/

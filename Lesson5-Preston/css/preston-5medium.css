@@ -1,0 +1,80 @@
+@media only screen and (min-width: 32.5em) {
+
+    .header-img {
+        width: 130px;
+        height: auto;
+    }  
+    .header-name{
+        font-size: 33px;
+    }
+    .header-motto {
+        font-size: 18px;
+    }
+    
+    .navigation a {
+        font-size: 18px;
+    }
+    .main-title {
+        font-size: 22px;
+    }
+    .contentbox , .contentbox-5daysforecast {
+        font-size: 18px;
+    }
+    footer {
+        font-size: 18px;
+    }
+
+    .title-summary {
+        font-size: 24px;
+    }
+    .col1 , .col2 {
+        font-size:18px;
+    }
+    .contact-box {
+        font-size: 18px;
+    }
+    .fivedays-box {
+        display: block;
+    }
+    .fivedays-table {
+        margin: auto;
+        /*table-layout: fixed;*/
+    }
+    .fivedays-table td, .fivedays-table th {
+        border: 1px solid rgb(243, 239, 239);
+        padding: 8px;
+    }
+    .fivedays-table td {
+        background-color: white;
+
+    }
+    .table-container {
+       display:flex;
+    }
+    .forecast-degrees {
+        display:block;
+       
+    }
+    .forecast-icon {
+        display:block;
+       width:50%;
+       height: 50%;
+       
+        
+    }
+    .high-temp , .low-temp {
+        margin:10px;
+        color:  rgb(40, 147, 228);
+        font-weight: bold;
+    }
+    .fivedays-table th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: center;
+        background-color: rgba(40, 147, 228, 0.8);
+        color: white;
+    }
+    
+
+}
+

@@ -1,0 +1,245 @@
+
+
+.saturday {
+    display:block;
+    width: 100%;
+    background-color: rgb(253, 253, 0);
+    text-align: center;
+    font-size: 16px;
+    text-shadow: 0px 0px 2px rgb(94, 85, 85);
+}
+
+
+
+
+/*Hamburguer button configuration - small screen*/
+
+nav {
+	margin: 0 auto;
+	max-width: 100%;
+	background-color: #0788E8;
+	
+}
+.navigation {
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+.navigation li {
+	display: none;
+	border: 1px solid rgb(188, 193, 197);
+}
+.navigation li:first-child {
+	display: block;
+	border: none;
+}
+.navigation a {
+	display: block;
+	color: #FFFF;
+	padding: 0.75rem;
+	text-align: center;
+	text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    cursor:pointer;
+}
+
+ul li.active a {
+	color: #000;
+    background-color: #e6f2ff;
+    font-weight: bold;
+}
+.navigation a:hover {
+    color: #000;
+	background-color: #e6f2ff;
+}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+.responsive li {
+	display: block;
+}
+
+/*Frame configuration - Header - Nav - Main
+Footer*/
+
+
+header {
+    width: 100%;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background: rgba(7,232,161,1);
+background: -moz-linear-gradient(left, rgba(7,232,161,1) 0%, rgba(143,202,230,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(7,232,161,1)), color-stop(100%, rgba(143,202,230,1)));
+background: -webkit-linear-gradient(left, rgba(7,232,161,1) 0%, rgba(143,202,230,1) 100%);
+background: -o-linear-gradient(left, rgba(7,232,161,1) 0%, rgba(143,202,230,1) 100%);
+background: -ms-linear-gradient(left, rgba(7,232,161,1) 0%, rgba(143,202,230,1) 100%);
+background: linear-gradient(to right, rgba(7,232,161,1) 0%, rgba(143,202,230,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#07e8a1', endColorstr='#8fcae6', GradientType=1 );
+}
+.header-img {
+    width: 100px;
+    height: 100%;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+.header-motto {
+    text-align: center;
+    font-style: italic;
+    color: #0788E8;
+    margin-left: 20px;
+    padding-right: 5px;
+
+}
+.header-name {
+    margin-bottom: 5px;
+    margin-left: 10px;
+    font-size: 25px;
+    color: #0037FF;
+    
+}
+
+/*MAIN CONFIGURATION*/
+
+main {
+    width:100%;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.main-title{
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size:20px;
+    color: #0040ff;
+}
+
+.fivedays-box {
+    display: none;   
+    padding: 10px;
+    margin-bottom:5px;
+    background-color:rgba(143,202,230,.5);
+}
+.article-box {   
+    padding: 10px;
+    margin-bottom:5px;
+    background-color:rgba(143,202,230,.5);
+    font-size: 16px;
+}
+.img-article{
+    max-width:90%;
+    margin:35px auto;
+    display:block;
+    box-shadow: 0 0 20px 0px black;
+}
+.article-title {
+    margin: 0 10px 3px 10px;
+}
+.article-explanation {
+    margin: 0 10px 8px 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+hr {
+    margin:0 10px 15px 10px;
+    color:black;
+}
+.article-p {
+    margin: 0 10px 0 10px;
+}
+.contact-box {   
+    text-align: center;
+    padding: 20px;
+    margin: 5px 0 5px 0;
+    background-color: #66d9ff;
+    font-size: 18px;
+}
+.contact-box-title {
+    font-size:24px;
+}
+.contact-map {
+    display:none;
+    max-width: 250px;
+}
+.contact-text img {
+    max-width: 40px;
+    margin-top: 10px;
+    margin-right:5px;
+}
+
+.location-icon {
+    width:18px;
+}
+
+/*HERO DIVISION*/
+
+.hero-ph {
+    width:100%;
+    position:relative;
+}
+.image-hero {
+    max-width: 100%;
+    
+}
+.weather-summary {
+    position:absolute;
+    top: 20px;
+    left: 10px;
+    background-color: rgba(40, 147, 228, 0.8);
+    padding: 10px;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 0 0 20px 2px rgb(0, 0, 0);
+}
+.col1 {
+    display: inline-block;
+    text-align: right;
+}
+.col1 p{
+    margin:5px;
+}
+.col2{
+    display: inline-block;
+    color: yellow;
+    margin-left: 5px;
+}
+.col2 p{
+    margin: 5px;
+}
+.title-summary {
+    margin: 0px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0px 0px 20px black;
+}
+
+
+footer{
+    width: 100%;
+    background-color:#0788E8;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+footer p {
+    margin: 10px 0 5px 0;
+}
+.footer-date {
+    margin: 0 0 10px 0;
+}
+.footer-link {
+    color:white;
+    text-decoration: none;
+    padding-left: 4px;
+}
+/* font-family: 'Roboto', sans-serif;
+           font-family: 'PT Serif', serif;*/

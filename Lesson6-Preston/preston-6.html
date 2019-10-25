@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/Lesson5-Preston/css/preston-5small.css">
-    <link rel="stylesheet" href="/Lesson5-Preston/css/preston-5medium.css">
-    <link rel="stylesheet" href="/Lesson5-Preston/css/preston-5large.css">
-    <link rel="shorcut icon" href="/Lesson5-Preston/images/favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=PT+Serif%7CRoboto&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="/Lesson5-Preston/js/preston-5.js"></script>
+    <link rel="stylesheet" href="/Lesson6-Preston/css/preston-6small.css">
+    <link rel="stylesheet" href="/Lesson6-Preston/css/preston-6medium.css">
+    <link rel="stylesheet" href="/Lesson6-Preston/css/preston-6large.css">
+    <link rel="shorcut icon" href="/Lesson6-Preston/images/favicon.ico">
+    <script type="text/javascript" src="/Lesson6-Preston/js/preston-6.js"></script>
     <title>Preston Town</title>
 </head>
 <body>
@@ -18,7 +17,7 @@
     9 a.m. saturday at the city park pavilion.</span>
 </div> 
 <header>
-        <img class="header-img" src="/Lesson5-Preston/images/logo.png" alt="logo">
+        <img class="header-img" src="/Lesson6-Preston/images/logo.png" alt="logo">
 <section class="headings">
      <h1 class="header-name">SOUTH-WEATHER</h1>
      <div class="header-motto">Broadcasting Weather 24 hours a day</div>
@@ -45,7 +44,17 @@
     <h2 class="main-title">Preston Idaho</h2>
 
        <div class="hero-ph">
-           <img class="image-hero"  src="images/preston town.jpg" alt="Preston Town Picture">
+          <picture >
+                <source media="(min-width: 960px)" srcset="images/cit230_image_franklinLarge1024.jpeg">
+                <source media="(min-width: 520px)" srcset="images/cit230_image_franklinMiddle.jpeg">
+                <img class= "image-hero" src="images/cit230_image_franklinSmall.jpeg" alt="Flowers" style="width:100%;">
+            <!--
+              <img class= "image-hero" src="images/cit230_image_franklinSmall.jpeg"
+              srcset= "images/cit230_image_franklinSmall.jpeg 400w, images/cit230_image_franklinMiddle.jpeg 800w,
+              images/cit230_image_franklinLarge1024.jpeg 1200w" size="100vw" alt="Franklin Image">
+            -->
+          </picture> 
+    
            <section class="weather-summary">
                <h2 class= "title-summary">Weather Summary</h2>
                <hr>
@@ -53,15 +62,15 @@
                   <p>Currently:</p>
                   <p>Temperature:</p>                      
                   <p>Humidity:</P>
-                  <p>Precipitation:</p>
+                  <p>Windchill:</p>
                   <p>Wind Speed:</p>
                </section>
                <section class="col2">
                   <p id="currently-info">Cloudy</p>
-                  <p id="temperature-info">77°F</p>                          
+                  <p> <span id="temperature">40</span>°F</p>                          
                   <p id="humidity-info">30%</p>
-                  <p id="precipitation">0%</p>
-                  <p id="windspeed-info">9 mph.</p>
+                  <p><span id="windchill">0</span>mph</p>
+                  <p><span id="speed">4</span>mph.</p>
                </section>
            </section>
        </div>
@@ -78,7 +87,7 @@
                     <tr>
                       <td>
                           <section class="table-container">
-                          <img class="forecast-icon" src="/Lesson5-Preston/images/Forecast/cloudy.png">
+                          <img class="forecast-icon" src="/Lesson6-Preston/images/Forecast/cloudy.png">
                           <div class="forecast-degrees">
                               <p class="high-temp">77°F</p>
                               <p class="low-temp">25°F</p>
@@ -87,7 +96,7 @@
                       </td>
                       <td>
                             <section class="table-container">
-                          <img class="forecast-icon" src="/Lesson5-Preston/images/Forecast/hot.png">
+                          <img class="forecast-icon" src="/Lesson6-Preston/images/Forecast/hot.png">
                           <div class="forecast-degrees">
                                 <p class="high-temp">70°F</p>
                                 <p class="low-temp">30°F</p>
@@ -96,7 +105,7 @@
                       </td>
                       <td>
                             <section class="table-container">
-                          <img class="forecast-icon" src="/Lesson5-Preston/images/Forecast/rainy.png">
+                          <img class="forecast-icon" src="/Lesson6-Preston/images/Forecast/rainy.png">
                           <div class="forecast-degrees">
                                 <p class="high-temp">60°F</p>
                                 <p class="low-temp">25°F</p>
@@ -105,7 +114,7 @@
                       </td>    
                       <td>
                             <section class="table-container">
-                          <img class="forecast-icon" src="/Lesson5-Preston/images/Forecast/sunny.png">
+                          <img class="forecast-icon" src="/Lesson6-Preston/images/Forecast/sunny.png">
                           <div class="forecast-degrees">
                                 <p class="high-temp">55°F</p>
                                 <p class="low-temp">20°F</p>
@@ -114,7 +123,7 @@
                       </td>
                       <td>
                             <section class="table-container">
-                          <img class="forecast-icon" src="/Lesson5-Preston/images/Forecast/storm.png">
+                          <img class="forecast-icon" src="/Lesson6-Preston/images/Forecast/storm.png">
                           <div class="forecast-degrees">
                                 <p class="high-temp">60°F</p>
                                 <p class="low-temp">24°F</p>
@@ -126,7 +135,7 @@
                   </table>
        </div>
        <div class="article-box">
-           <img class="img-article" src ="images/Article.jpg"  alt="image of article section">
+           <img class="img-article" src ="images/Article_Middle.jpg"  alt="image of article section">
            <h2 class="article-title">Article</h2>
            <p class="article-explanation">Brief explanation</p>
            <hr>
@@ -146,9 +155,9 @@
        </div>
        <div class="contact-box">
            <section class="container-map">
-                <img class="contact-map" src="/Lesson5-Preston/images/contact-map.png" alt="Contact map">
+                <img class="contact-map" src="/Lesson6-Preston/images/contact-map.png" alt="Contact map">
                 <div class="contact-text">
-                     <span class="contact-box-title"><img class="location-icon" src="/Lesson5-Preston/images/location-icon.jpg">
+                     <span class="contact-box-title"><img class="location-icon" src="/Lesson6-Preston/images/location-icon.jpg">
                      <strong>South-Weather</strong></span><br>
                      <span>South Blvd 85I52 IDAHO</span> <br><br>
                      <span>&#x260E Phone Number: 085 - 2562 2632</span><br>
@@ -175,4 +184,7 @@
 </footer>
 
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfontload.js"></script>
+<script src="js/windchill.js"></script>
 </html>

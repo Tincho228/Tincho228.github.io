@@ -1,5 +1,8 @@
 @media only screen and (min-width: 32.5em) {
 
+    main {
+    margin: auto 50px;
+    }
     .saturday {
         font-size: 20px;
     }
@@ -41,7 +44,6 @@
     }
     .fivedays-table {
         margin: auto;
-        /*table-layout: fixed;*/
     }
     .fivedays-table td, .fivedays-table th {
         border: 1px solid rgb(243, 239, 239);

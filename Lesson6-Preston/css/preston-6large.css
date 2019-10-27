@@ -26,16 +26,11 @@
     .header-motto {
 		font-size: 20px;
 	}
-	main {
-		width: 90%;
-		margin: auto;
-	}
 	.main-title {
 		font-size: 24px;
 	}
 	footer {
-		width: 90%;
-		margin: auto;
+		margin: auto 50px;
 	}
 	.img-article {
 	max-width: 500px;

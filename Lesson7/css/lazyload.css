@@ -1,0 +1,32 @@
+
+h1 {
+    text-align: center;
+    margin:30px;
+}
+
+article img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  article img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }
+.container {
+    display:grid;
+    grid-template-columns: 300px;
+    grid-row-gap:10px;
+    justify-content: space-around;
+}
+h2 {
+    border: 1px solid rgba(240, 255, 152, 0.781);
+    margin:0;
+    background-color: rgba(240, 255, 152, 0.781);
+}
+img[data-src] {
+    filter: blur(0.1em);
+  }
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }

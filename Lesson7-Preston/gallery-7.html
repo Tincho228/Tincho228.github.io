@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/Lesson7-Preston/css/preston-7small.css">
+    <link rel="stylesheet" href="/Lesson7-Preston/css/preston-7medium.css">
+    <link rel="stylesheet" href="/Lesson7-Preston/css/preston-7large.css">
+    <link rel="shortcut icon" href="/Lesson7-Preston/img/Icons/favicon.ico">
+    <link rel="stylesheet" href="/Lesson7-Preston/css/normalize.css">
+    <script src="/Lesson7-Preston/js/preston-7.js"></script>
+    <script src="/Lesson7-Preston/js/lazyload.js" defer></script>
+    <title>Gallery</title>
+</head>
+<body>
+<div class="saturday">
+   <span> Saturday = Preston Pancakes in the Park!<br>
+    9 a.m. saturday at the city park pavilion.</span>
+</div> 
+<header>
+        <img class="header-img" src="/Lesson7-Preston/img/logo.png" alt="logo">
+<section class="headings">
+     <h1 class="header-name">SOUTH-WEATHER</h1>
+     <div class="header-motto">Broadcasting Weather 24 hours a day</div>
+</section>
+     
+</header>      
+<nav>
+        <ul class="navigation">
+            <li class="btn"><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li class="btn"><a href="#">Home</a></li>
+            <li class="btn"><a href="/Lesson7-Preston/preston-7.html">Preston</a></li>
+            <li class="btn"><a href="#">Soda Springs</a></li>
+            <li class="btn"><a href="#">Fish Haven</a></li>
+            <li class="btn"><a href="#">Storm Center</a></li>
+            <li class="btn active"><a href="/Lesson7-Preston/gallery-7.html">Gallery</a></li>
+        </ul>
+        <script> 
+        activeclass(); 
+        hide_saturday();
+        </script>
+     
+</nav>   
+<main>
+        <h2 class="gallery-title">Weather Gallery</h2>
+        <div class="container">
+            <figure class="image-box">
+                <img class= "gallery-image" src="/Lesson7-Preston/img/lazy-load-images/Placeholder.png" data-src="/Lesson7-Preston/img/Gallery-images/Small/Clear sky 400x300.jpg"  alt= "clear sky">
+                <figcaption>Clear sky in Springfield</figcaption>
+            </figure>
+            <figure class="image-box">
+                <img class="gallery-image" src="/Lesson7-Preston/img/lazy-load-images/Placeholder.png" data-src="/Lesson7-Preston/img/Gallery-images/Small/Cold Front 400x300.jpg" alt= "cold front">
+                <figcaption>Cold front over Springfield</figcaption>
+            </figure>
+            <figure class="image-box">
+                <img class="gallery-image" src="/Lesson7-Preston/img/lazy-load-images/Placeholder.png" data-src="/Lesson7-Preston/img/Gallery-images/Small/Freezing 400x300.jpg" alt="freezing">
+                <figcaption>Freezing</figcaption>
+            </figure>
+            <figure class="image-box">
+                <img class="gallery-image" src="/Lesson7-Preston/img/lazy-load-images/Placeholder.png" data-src="/Lesson7-Preston/img/Gallery-images/Small/Lightning 400x300.jpg" alt= "lightning">
+                <figcaption>Lightning strikes in Greenville</figcaption>
+            </figure>
+            <figure class="image-box">
+                <img class="gallery-image" src="/Lesson7-Preston/img/lazy-load-images/Placeholder.png" data-src="/Lesson7-Preston/img/Gallery-images/Small/Lightning and sun 400x300.jpg" alt= "lightning and sun">
+                <figcaption>Lightning and sun over Greenville</figcaption>
+            </figure>
+            <figure class="image-box">
+                <img class="gallery-image" src="/Lesson7-Preston/img/lazy-load-images/placeholder.png" data-src="/Lesson7-Preston/img/Gallery-images/Small/Rain.jpg" alt= "rain">
+                <figcaption>Raining in the main city</figcaption>
+            </figure>
+            <figure class="image-box">
+                <img class="gallery-image" src="/Lesson7-Preston/img/lazy-load-images/placeholder.png" data-src="/Lesson7-Preston/img/Gallery-images/Small/Rainbow south 400x300.jpg" alt= "rainbow">
+                <figcaption>Rainbow south of Franklin</figcaption>
+            </figure>
+            <figure class="image-box">
+                <img class="gallery-image" src="/Lesson7-Preston/img/lazy-load-images/placeholder.png" data-src="/Lesson7-Preston/img/Gallery-images/Small/Snow 400x300.jpg" alt= "snow">
+                <figcaption>Franklin Park covered in fresh snow</figcaption>
+            </figure>
+            <figure class="image-box">
+                <img class="gallery-image" src="/Lesson7-Preston/img/lazy-load-images/placeholder.png" data-src="/Lesson7-Preston/img/Gallery-images/Small/Tornado 400x300.jpg" alt= "tornado">
+                <figcaption>Tornado forming over North Clark County</figcaption>
+            </figure>
+        </div>
+            
+</main>
+<footer>
+
+        <p class="copyright">&copy;2020 Martin Quintero | Argentina
+        <a class="footer-link" href="http://www.byui.edu/online"> BYU Online </a></p>
+      
+        <div class="footer-date">
+        <script>
+        document.write(CurrentDate());
+        </script>
+        </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="js/webfontload.js"></script>
+</body>
+
+</html>

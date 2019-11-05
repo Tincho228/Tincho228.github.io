@@ -4,7 +4,10 @@ table {
   font-family:'Ubuntu', sans-serif;
   margin:auto;
   box-shadow: 6px 6px 11px 0px  #628ca6;
-  border-spacing: 1px;
+  border-collapse: collapse;
+}
+table, tr, td, th {
+  border: 1px solid lightgray;
 }
 thead {
   font-weight: bold;

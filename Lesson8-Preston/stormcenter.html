@@ -49,9 +49,9 @@
     <form action="/Lesson8-Preston/thanks.html" method="get">
     <span class="subtitle">Personal information</Span><br><br>
     <label>Full name <br><input class="inputfield" type="text" name="full name" pattern="[A-Za-z\s]{5,}" autocomplete="off" required></label><br><br>
-    <label>E-mail <br><input class="inputfield" type="email" name="email"placeholder=" email@example.com" autocomplete="off"></label><br><br>
+    <label>E-mail <br><input class="inputfield" type="email" name="email" placeholder=" email@example.com" autocomplete="off"></label><br><br>
     <label>Phone number<br><input class="inputfield" type="tel" name="telephone" autocomplete="off" pattern="[0-9]+" required></label><br><br>
-    <label>Zip code <br><input class="inputfield" type="number"name="zip code" autocomplete="off" pattern="[0-9]+" required></label><br><br>
+    <label>Zip code <br><input class="inputfield" type="number" name="zip code" autocomplete="off" required></label><br><br>
     <hr>
     <span class="subtitle">Storm info</span><br><br> 
     <label>Storm date <br><input class="inputfield" type="date" name="date" autocomplete="off" ></label><br><br>
@@ -74,15 +74,15 @@
         <option value="Soda Springs">Soda Springs</option>
         <option value="Fish Haven">Fish Haven</option>
     </select></label><br><br>
-    <label><p class="danger">Are you in danger?</p>
+    <label class="danger" >Are you in danger?</label>
         <input type="radio" name="level-of-danger" value="yes"> Yes<br>
         <input type="radio" name="level-of-danger" value="maybe"> Maybe<br>
         <input type="radio" name="level-of-danger" value="No"> No
-    </label><br><br>
+    <br><br>
     <hr>
     <span class="subtitle">Additional Information</span><br><br>
     <label>Comments<br><textarea rows="4" cols="40" class="inputfield-textarea"></textarea></label><br>
-    <input type="submit" value="Send my report"class="submitbutton"><br>
+    <input type="submit" value="Send my report" class="submitbutton"><br>
     </form>
     
   </div>

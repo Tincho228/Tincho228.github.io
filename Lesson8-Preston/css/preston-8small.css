@@ -333,7 +333,8 @@ figure {
     width:85%;
 }
 .danger {
-    margin:5px;
+    display:block;
+    margin-bottom: 5px;
 }
 .submitbutton {
     width:100%;

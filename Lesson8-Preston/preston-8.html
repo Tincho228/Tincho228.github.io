@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/Lesson8-Preston/css/preston-8small.css">
+    <link rel="stylesheet" href="/Lesson8-Preston/css/preston-8medium.css">
+    <link rel="stylesheet" href="/Lesson8-Preston/css/preston-8large.css">
+    <link rel="shortcut icon" href="/Lesson8-Preston/img/Icons/favicon.ico">
+    <link rel="stylesheet" href="/Lesson8-Preston/css/normalize.css">
+    <script src="/Lesson8-Preston/js/preston-8.js"></script>
+    <title>Preston Town</title>
+</head>
+<body>
+<div class="saturday">
+   <span> Saturday = Preston Pancakes in the Park!<br>
+    9 a.m. saturday at the city park pavilion.</span>
+</div> 
+<header>
+        <img class="header-img" src="/Lesson8-Preston/img/logo.png" alt="logo">
+<section class="headings">
+     <h1 class="header-name">SOUTH-WEATHER</h1>
+     <div class="header-motto">Broadcasting Weather 24 hours a day</div>
+</section>
+     
+</header>      
+<nav>
+        <ul class="navigation">
+            <li class="btn"><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li class="btn"><a href="#">Home</a></li>
+            <li class="btn active"><a href="/Lesson8-Preston/preston-8.html">Preston</a></li>
+            <li class="btn"><a href="#">Soda Springs</a></li>
+            <li class="btn"><a href="#">Fish Haven</a></li>
+            <li class="btn"><a href="/Lesson8-Preston/stormcenter.html">Storm Center</a></li>
+            <li class="btn"><a href="/Lesson8-Preston/gallery-8.html">Gallery</a></li>
+        </ul>
+        <script> 
+        activeclass(); 
+        hide_saturday();
+        </script>
+     
+</nav>   
+<main>
+    <h2 class="main-title">Preston Idaho</h2>
+
+       <div class="hero-ph">
+          <picture >
+                <source media="(min-width: 960px)" srcset="/Lesson7-Preston/img/Hero-assests/cit230_image_franklinLarge1024.jpeg">
+                <source media="(min-width: 520px)" srcset="/Lesson7-Preston/img/Hero-assests/cit230_image_franklinMiddle.jpeg">
+                <img class= "image-hero" src="/Lesson7-Preston/img/Hero-assests/cit230_image_franklinSmall.jpeg" alt="Small" style="width:100%;">
+            
+          </picture> 
+    
+           <section class="weather-summary">
+               <h2 class= "title-summary">Weather Summary</h2>
+               <hr>
+               <section class="col1">
+                  <p>Currently:</p>
+                  <p>Temperature:</p>                      
+                  <p>Humidity:</P>
+                  <p>Windchill:</p>
+                  <p>Wind Speed:</p>
+               </section>
+               <section class="col2">
+                  <p id="currently-info">Cloudy</p>
+                  <p> <span id="temperature">30</span> °F</p>                          
+                  <p id="humidity-info"> 30 %</p>
+                  <p><span id="windchill">0</span> mph</p>
+                  <p><span id="speed">6</span> mph.</p>
+               </section>
+           </section>
+       </div>
+
+       <div class="fivedays-box">
+            <table class="fivedays-table">
+                    <tr>
+                      <th>Monday</th>
+                      <th>Tuesday</th>
+                      <th>Wednesday</th>
+                      <th>Thursday</th>
+                      <th>Friday</th>
+                    </tr>
+                    <tr>
+                      <td>
+                          <section class="table-container">
+                          <img class="forecast-icon" src="/Lesson7-Preston/img/Forecast/cloudy.png" alt="cloudy icon">
+                          <div class="forecast-degrees">
+                              <p class="high-temp">77°F</p>
+                              <p class="low-temp">25°F</p>
+                          </div>
+                          </section>
+                      </td>
+                      <td>
+                            <section class="table-container">
+                          <img class="forecast-icon" src="/Lesson7-Preston/img/Forecast/hot.png" alt="hot icon">
+                          <div class="forecast-degrees">
+                                <p class="high-temp">70°F</p>
+                                <p class="low-temp">30°F</p>
+                          </div>
+                        </section>
+                      </td>
+                      <td>
+                            <section class="table-container">
+                          <img class="forecast-icon" src="/Lesson7-Preston/img/Forecast/rainy.png" alt="rainy icon">
+                          <div class="forecast-degrees">
+                                <p class="high-temp">60°F</p>
+                                <p class="low-temp">25°F</p>
+                            </div>
+                        </section>
+                      </td>    
+                      <td>
+                            <section class="table-container">
+                          <img class="forecast-icon" src="/Lesson7-Preston/img/Forecast/sunny.png" alt="sunny icon">
+                          <div class="forecast-degrees">
+                                <p class="high-temp">55°F</p>
+                                <p class="low-temp">20°F</p>
+                            </div>
+                        </section>
+                      </td>
+                      <td>
+                            <section class="table-container">
+                          <img class="forecast-icon" src="/Lesson7-Preston/img/Forecast/storm.png" alt="storm icon">
+                          <div class="forecast-degrees">
+                                <p class="high-temp">60°F</p>
+                                <p class="low-temp">24°F</p>
+                            </div>
+                        </section>
+                      </td>
+                    </tr>
+
+                  </table>
+       </div>
+       <div class="article-box">
+           <img class="img-article" src ="/Lesson7-Preston/img/Article/Article_Middle.jpg"  alt="image of article section">
+           <h2 class="article-title">Article</h2>
+           <p class="article-explanation">Brief explanation</p>
+           <hr>
+           <p class="article-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae corrupti excepturi repellat omnis suscipit magnam nostrum qui deleniti laudantium optio? Aspernatur temporibus, possimus facere atque adipisci cupiditate ex consectetur illum. <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus fuga molestias enim doloribus ex unde dolores harum iusto deserunt facilis, illum, modi asperiores ipsam maiores. Accusantium quisquam animi vitae quasi! <br>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit dolorum explicabo natus modi debitis quas dignissimos accusantium, illum quod ratione reiciendis corporis maxime amet, non autem quisquam hic minima.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut accusamus maiores tempore sit facere repellat magni, totam officiis deleniti. Laudantium aliquam temporibus possimus sapiente doloribus officia aspernatur architecto iure repellat. 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium at optio accusantium quasi veniam nam consequatur quod nesciunt dolorem, molestiae ad, quaerat reprehenderit officia voluptate, possimus necessitatibus labore iusto deserunt.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore optio sequi, quos nam ullam nesciunt! Possimus non expedita natus mollitia eos hic odit dolor nostrum laboriosam animi, a atque voluptas. <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus eveniet ducimus voluptatibus. Doloremque numquam nihil rem et facere. Commodi sapiente vel minus molestias ea repellat pariatur, eaque officiis similique rerum?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis aspernatur sed maxime nam a excepturi adipisci, cumque repudiandae? Nemo omnis earum nulla asperiores rem vel libero ad inventore eius error?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, eaque error? Ullam saepe voluptatum molestiae. Perferendis, unde, placeat tempora facere nesciunt maxime architecto quod aut eaque obcaecati a quo reiciendis!
+           </p>
+
+           
+           
+       </div>
+       <div class="contact-box">
+           <section class="container-map">
+                <img class="contact-map" src="/Lesson7-Preston/img/Icons/contact-map.png" alt="Contact map">
+                <div class="contact-text">
+                     <span class="contact-box-title"><img class="location-icon" src="/Lesson7-Preston/img/Icons/location-icon.jpg" alt="location icon">
+                     <strong>South-Weather</strong></span><br>
+                     <span>South Blvd 85I52 IDAHO</span> <br><br>
+                     <span>&#x260E; Phone Number: 085 - 2562 2632</span><br>
+                     <span>&#9993; E-mail: <a class="email-link" href="contact@blue-weather.com">contact@south-weather.com</a></span><br>
+                     <a href="https://www.facebook.com/"><img src="/Lesson7-Preston/img/Icons/facebook-icon.png" alt="icon of facebook"></a>
+                     <a href="https://www.instagram.com/"><img src="/Lesson7-Preston/img/Icons/instagram-icon.png" alt="icon of instagram"></a>
+                     <a href="https://twitter.com/"><img src="/Lesson7-Preston/img/Icons/twitter-icon.png" alt="icon of twitter"></a>
+                     <a href="https://www.youtube.com/"><img src="/Lesson7-Preston/img/Icons/youtube-play-icon.png" alt="icon of youtube"></a>
+                
+                </div>
+            </section>    
+        </div>
+</main>
+<footer>
+
+        <p class="copyright">&copy;2020 Martin Quintero | Argentina
+        <a class="footer-link" href="http://www.byui.edu/online"> BYU Online </a></p>
+      
+        <div class="footer-date">
+        <script>
+        document.write(CurrentDate());
+        </script>
+        </div>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="/Lesson8-Preston/js/webfontload.js"></script>
+<script src="/Lesson8-Preston/js/windchill.js"></script>
+</body>
+
+</html>

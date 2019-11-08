@@ -293,19 +293,25 @@ figure {
 
 /****************STORM CENTER CODE*********/
 .main-title-storm {
-text-align: center;
-letter-spacing: 1px;
-word-spacing: 2px;
-font-size: 25px;
-color: #0040ff;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-size: 25px;
+    color: #0040ff;
+    margin-top: 5px;
+    margin-bottom: 30px;
 }
-
+.subtitle {
+    font-weight: bold;
+    font-size: 16px;
+}
 .wrapperform {
     margin: 10%;
     padding: 15px;
     border-radius: 5px;
-    background-color: #33deb8;
-    
+    background-color: #33deb89e;
+    box-shadow: 3px 3px 10px #18997c;
+    font-size:14px;
 
 }
 .inputfield {

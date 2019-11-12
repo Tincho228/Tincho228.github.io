@@ -19,7 +19,7 @@ p {
     display:grid;
     grid-template-columns: 1fr;
     grid-gap:5px;
-    box-shadow: 0px -16px 15px 0px #d2e0c8;
+    box-shadow: 0px -16px 15px 0px #bc808096;
     font-size:13px;
     border: 10px solid #9e6a6a;
 }

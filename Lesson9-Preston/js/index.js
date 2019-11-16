@@ -33,11 +33,6 @@ fetch(requestURL)
         town_yearfounded.textContent = "Year Founded: " + towns[i].yearFounded;
         town_population.textContent = "Population: " + towns[i].currentPopulation;
         town_rainfall.textContent = "Annual Rain Fall: " + towns[i].averageRainfall;       
-        /*  Giving an Id to each image */
-        document.getElementsByTagName("img")[1].id = "FishHaven";
-        document.getElementsByTagName("img")[2].id = "Preston";
-        document.getElementsByClassName("contact-map")[0].id = "Map";
-      
         
         /* Append the infoDiv*/
          town_info.appendChild(town_name);

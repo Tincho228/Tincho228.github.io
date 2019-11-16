@@ -17,6 +17,7 @@
 		flex: 1 1 100%;
 	}
 	.navigation li a {
+		font-size:17px;
 		color: white;
 	}
 	.header-img {
@@ -70,5 +71,41 @@
 	.gallery-title {
 		font-size:24px;
 	}
+	/*  INDEX CONFIGURATION*/
+	main {
+		margin: 30px 10%;
+	}
+
+	.three-towns {  
+		max-width:1200px;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 5px;
+		border: 10px solid #e6f2ff;
+		background-color: #e6f2ff;
+	}
+	.town-image {
+		bottom:0;
+		display:block;
+		width: 90%;
+		margin:15px auto;
+	}
+	.infoDiv {
+		float:none;
+		width:100%;
+		margin:auto;
+		text-align: center;
+	}
+	#FishHaven {
+		position:relative;
+	
+	}
+	#Preston {
+		position:relative;
+		
+	}
+	.aboutUs {
+        max-width:1200px;
+        margin:5px auto;
+    }
 }
 

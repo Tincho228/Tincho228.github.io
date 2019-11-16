@@ -95,5 +95,35 @@
         max-width: 550px;
         margin:5% auto;
     }
+
+    /* INDEX CONFIGURATION */
+    .three-towns {
+        max-width:600px ;
+        margin:auto;
+    }
+    .town-image{
+        width:48%;
+        margin-right:5px;
+        margin-left:5px;
+    }
+    .infoDiv {
+        float:right;
+        width:50%;
+    }
+    .infoDiv p {
+        margin:10px;
+    }
+    .aboutUs {
+        max-width:600px;
+        margin:5px auto;
+    }
+    .aboutUs p {
+        width:95%;
+        margin:auto;
+    }
+    .aboutUs h3 {
+        width:95%;
+    }
+
 }
 

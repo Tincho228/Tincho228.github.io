@@ -156,7 +156,7 @@ hr {
     padding: 20px;
     margin: 5px 0 5px 0;
     background-color: #66d9ff;
-    font-size: 18px;
+    font-size: 16px;
 }
 .contact-box-title {
     font-size:24px;
@@ -359,4 +359,62 @@ figure {
 .thankyou-return a {
     text-decoration: none;
     color: blacK;
+}
+/* INDEX PAGE CONFIGURATION  */
+.three-towns {  
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+.three-towns section {
+    background-color:rgba(143,202,230,.5);
+
+}
+.infoDiv h2 {
+    margin-bottom:10px;
+    color: #0788e8;
+}
+.infoDiv p {
+    margin-top:5px;
+    margin-bottom:20px;
+}
+.mottoDiv {
+    font-size: 15px;
+    font-style: italic;
+    color: #0788e8;
+}
+.town-image {
+    display:block;
+    width: 90%;
+    margin:15px auto;
+    box-shadow: 0 0 13px 0px rgb(101, 52, 216);
+}
+.infoDiv {
+    width:80%;
+    margin:auto;
+    text-align: center;
+}
+.aboutUs {
+    width:100%;
+    margin-top:5px;
+    background-color:rgba(143,202,230,.5);
+}
+.aboutUs h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width:90%;
+    margin:auto;
+}
+.aboutUs p {
+    width:90%;
+    margin:auto;
+}
+.aboutUs ul {
+    padding-bottom: 10px;
+}
+.link-design {
+    list-style:none;
+}
+.link-design a {
+    text-decoration: none;
 }

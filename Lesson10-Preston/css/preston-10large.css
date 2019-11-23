@@ -1,0 +1,107 @@
+/* Media Query for medium + screens */
+
+/*Hamburguer button confgiguration*/
+
+@media only screen and (min-width: 60em) {
+	.navigation {
+		width: 80%;
+		margin: auto;
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		border:none;
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		font-size:17px;
+		color: white;
+	}
+	.header-img {
+        width: 150px;
+        height: auto;
+    }  
+    .header-name{
+        font-size: 35px;
+    }
+    .header-motto {
+		font-size: 20px;
+	}
+	.main-title {
+		font-size: 24px;
+	}
+	footer, main{
+		margin: auto 10%;
+	}
+	.img-article {
+	max-width: 500px;
+	float: left;
+	margin-right: 20px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	}
+	.article-title {
+		margin-top: 25px;
+	}
+	.container-map {
+		display:flex;
+
+	}
+	.contact-map {
+		display: block;
+		border: 2px solid black;
+		margin:auto;
+		box-shadow: 5px 9px 9px black;
+		margin-right:25px;
+	}
+    .contact-text {
+		margin:auto;
+		text-align: left;
+		margin-left:25px;
+		
+	}
+	.container {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-column-gap:30px;
+		grid-row-gap: 30px;
+	}
+	.gallery-title {
+		font-size:24px;
+	}
+	.image-box:hover {box-shadow: 0 0 50px #333;}
+	/*  INDEX CONFIGURATION*/
+	main {
+		margin: 30px 10%;
+	}
+
+	.three-towns {  
+		max-width:1200px;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-gap: 5px;
+		border: 10px solid #e6f2ff;
+		background-color: #e6f2ff;
+	}
+	.three-towns section:nth-of-type(1) { grid-column: 3; grid-row:1;}
+	.three-towns section:nth-of-type(2) { grid-column: 1; grid-row:1;}
+	.three-towns section:nth-of-type(3) { grid-column: 2; grid-row:1;}
+	.town-image {
+		bottom:0;
+		display:block;
+		width: 90%;
+		margin:15px auto;
+	}
+	.infoDiv {
+		float:none;
+		width:100%;
+		margin:auto;
+		text-align: center;
+	}
+	.aboutUs {
+        max-width:1200px;
+        margin:5px auto;
+    }
+}
+

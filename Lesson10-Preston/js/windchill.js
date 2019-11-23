@@ -19,13 +19,7 @@ fetch(apiURLcurrent)
       }
   });  
 
-
-
-
-
-
-
-
+  
 const apiURLforecast = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&APPID=abdae41d051b90c3354abd81c4cdf5b5&units=imperial';
 fetch(apiURLforecast)
   .then((response) => response.json())

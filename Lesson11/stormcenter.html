@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/Lesson11/css/normalize.css">
+    <link rel="stylesheet" href="/Lesson11/css/preston-10small.css">
+    <link rel="stylesheet" href="/Lesson11/css/preston-10medium.css">
+    <link rel="stylesheet" href="/Lesson11/css/preston-10large.css">
+    <link rel="shortcut icon" href="/Lesson11/img/Icons/favicon.ico">
+    <script src="/Lesson11/js/preston-10.js"></script>
+    <title>Storm Center</title>
+</head>
+<body>
+<div class="saturday">
+   <span> Saturday = Preston Pancakes in the Park!<br>
+    9 a.m. saturday at the city park pavilion.</span>
+</div> 
+<header>
+        <img class="header-img" src="/Lesson11/img/logo.png" alt="logo">
+<section class="headings">
+     <h1 class="header-name">SOUTH-WEATHER</h1>
+     <div class="header-motto">Broadcasting Weather 24 hours a day</div>
+</section>
+     
+</header>      
+<nav>
+        <ul class="navigation">
+            <li class="btn"><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li class="btn"><a href="/Lesson11/index.html">Home</a></li>
+            <li class="btn"><a href="/Lesson11/preston.html">Preston</a></li>
+            <li class="btn"><a href="#">Soda Springs</a></li>
+            <li class="btn"><a href="#">Fish Haven</a></li>
+            <li class="btn active"><a href="/Lesson11/stormcenter.html">Storm Center</a></li>
+            <li class="btn"><a href="/Lesson11/gallery.html">Gallery</a></li>
+        </ul>
+        <script> 
+        activeclass(); 
+        hide_saturday();
+        </script>
+     
+</nav>   
+<main>
+  
+    
+  <div class="wrapperform">  
+    <h2 class="main-title-storm">Report a Storm!!</h2>
+    <form action="/Lesson11/thanks.html" method="get">
+    <span class="subtitle">Personal information</Span><br><br>
+    <label>Full name <br><input class="inputfield" type="text" name="full name" pattern="[A-Za-z\s]{5,}" autocomplete="off" required></label><br><br>
+    <label>E-mail <br><input class="inputfield" type="email" name="email" placeholder=" email@example.com" autocomplete="off"></label><br><br>
+    <label>Phone number<br><input class="inputfield" type="tel" name="telephone" autocomplete="off" pattern="[0-9]+" required></label><br><br>
+    <label>Zip code <br><input class="inputfield" type="number" name="zip code" autocomplete="off" required></label><br><br>
+    <hr>
+    <span class="subtitle">Storm info</span><br><br> 
+    <label>Storm date <br><input class="inputfield" type="date" name="date" autocomplete="off" ></label><br><br>
+    <label>Storm type <br> <input class="inputfield" list="storm">
+    <datalist id="storm">
+      <option value="Flash">
+      <option value="Flood">
+      <option value="Hail">
+      <option value="Hurricane">
+      <option value="Thunderstorm">
+      <option value="Tornado">
+    </datalist></label><br><br>
+    <label>Storm severity - <span id = "outputspan"></span><br>0
+    <input class="storm-severity" id="myrange" type="range" name="storm-severity" min="0" max="10" value="5"></label>10<br><br>
+    <label>Storm region<br>
+    
+    <select name="region" class="inputfield">
+        <option value="" disabled selected>Select region</option>
+        <option value="Preston">Preston</option>
+        <option value="Soda Springs">Soda Springs</option>
+        <option value="Fish Haven">Fish Haven</option>
+    </select></label><br><br>
+    <label class="danger" >Are you in danger?</label>
+        <input type="radio" name="level-of-danger" value="yes"> Yes<br>
+        <input type="radio" name="level-of-danger" value="maybe"> Maybe<br>
+        <input type="radio" name="level-of-danger" value="No"> No
+    <br><br>
+    <hr>
+    <span class="subtitle">Additional Information</span><br><br>
+    <label>Comments<br><textarea rows="4" cols="40" class="inputfield-textarea"></textarea></label><br>
+    <input type="submit" value="Send my report" class="submitbutton"><br>
+    </form>
+    
+  </div>
+
+</main>
+<footer>
+
+        <p class="copyright">&copy;2020 Martin Quintero | Argentina
+        <a class="footer-link" href="http://www.byui.edu/online"> BYU Online </a></p>
+      
+        <div class="footer-date">
+        <script>
+        document.write(CurrentDate());
+        </script>
+        </div>
+        <p class="copyright">Weather data provided by <a class="footer-link" href="https://openweathermap.org/">openweathermap.org</a></p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="/Lesson11/js/webfontload.js"></script>
+<script src ="/Lesson11/js/slider.js"></script>
+
+</body>
+
+</html>

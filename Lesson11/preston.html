@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/Lesson11/css/normalize.css">
+    <link rel="stylesheet" href="/Lesson11/css/preston-10small.css">
+    <link rel="stylesheet" href="/Lesson11/css/preston-10medium.css">
+    <link rel="stylesheet" href="/Lesson11/css/preston-10large.css">
+    <link rel="shortcut icon" href="/Lesson11/img/Icons/favicon.ico">
+    <script src="/Lesson11/js/preston-10.js"></script>
+    <title>Preston Town</title>
+</head>
+<body>
+<div class="saturday">
+   <span> Saturday = Preston Pancakes in the Park!<br>
+    9 a.m. saturday at the city park pavilion.</span>
+</div> 
+<header>
+        <img class="header-img" src="/Lesson11/img/logo.png" alt="logo">
+<section class="headings">
+     <h1 class="header-name">SOUTH-WEATHER</h1>
+     <div class="header-motto">Broadcasting Weather 24 hours a day</div>
+</section>
+     
+</header>      
+<nav>
+        <ul class="navigation">
+            <li class="btn"><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li class="btn"><a href="/Lesson11/index.html">Home</a></li>
+            <li class="btn active"><a href="/Lesson11/preston.html">Preston</a></li>
+            <li class="btn"><a href="#">Soda Springs</a></li>
+            <li class="btn"><a href="#">Fish Haven</a></li>
+            <li class="btn"><a href="/Lesson11/stormcenter.html">Storm Center</a></li>
+            <li class="btn"><a href="/Lesson11/gallery.html">Gallery</a></li>
+        </ul>
+        <script> 
+        activeclass(); 
+        hide_saturday();
+        </script>
+     
+</nav>   
+<main>
+    <h2 class="main-title">Preston Idaho</h2>
+
+       <div class="hero-ph">
+          <picture >
+                <source media="(min-width: 960px)" srcset="/Lesson11/img/Hero-assests/Preston-large.png">
+                <source media="(min-width: 520px)" srcset="/Lesson11/img/Hero-assests/Preston-medium.png">
+                <img class= "image-hero" src="/Lesson11/img/Hero-assests/Preston-small.png" alt="Small" style="width:100%;">
+            
+          </picture> 
+    
+           <section class="weather-summary">
+               <h2 class= "title-summary">Weather Summary</h2>
+               <hr>
+               <section class="col1">
+                  <p>Currently:</p>
+                  <p>Temperature:</p>                      
+                  <p>Humidity:</P>
+                  <p>Windchill:</p>
+                  <p>Wind Speed:</p>
+               </section>
+               <section class="col2">
+                  <p id="currently-info"></p>
+                  <p> <span id="temperature"></span> °F</p>                          
+                  <p id="humidity-info"> </p>
+                  <p><span id="windchill"></span> mph</p>
+                  <p><span id="speed">6</span> mph.</p>
+               </section>
+           </section>
+       </div>
+
+       <div class="fivedays-box">
+            <table class="fivedays-table">
+                    <tr>
+                      <th id = "Day-1" ></th>
+                      <th id = "Day-2"></th>
+                      <th id = "Day-3" ></th>
+                      <th id = "Day-4"></th>
+                      <th id = "Day-5"></th>
+                    </tr>
+                    <tr>
+                      <td>
+                          <section class="table-container">
+                          <img class="forecast-icon" id="iconDay-1" src="#" alt="#">
+                          <div class="forecast-degrees">
+                              <p id="tempDay-1">77°F</p>
+      
+                          </div>
+                          </section>
+                      </td>
+                      <td>
+                            <section class="table-container">
+                          <img class="forecast-icon" id="iconDay-2" src="#" alt="#">
+                          <div class="forecast-degrees">
+                                <p id="tempDay-2">70°F</p>
+                                
+                          </div>
+                        </section>
+                      </td>
+                      <td>
+                            <section class="table-container">
+                          <img class="forecast-icon" id="iconDay-3" src="#" alt="#">
+                          <div class="forecast-degrees">
+                                <p id="tempDay-3">60°F</p>
+                                
+                            </div>
+                        </section>
+                      </td>    
+                      <td>
+                            <section class="table-container">
+                          <img class="forecast-icon" id="iconDay-4" src="#" alt="#">
+                          <div class="forecast-degrees">
+                                <p id="tempDay-4">55°F</p>
+                                
+                            </div>
+                        </section>
+                      </td>
+                      <td>
+                            <section class="table-container">
+                          <img class="forecast-icon" id="iconDay-5" src="#" alt="storm icon">
+                          <div class="forecast-degrees">
+                                <p id="tempDay-5">60°F</p>
+                                
+                            </div>
+                        </section>
+                      </td>
+                    </tr>
+
+                  </table>
+       </div>
+       <div class="article-box">
+           <img class="img-article" src ="/Lesson11/img/Article/Article_Middle.jpg"  alt="image of article section">
+           <h2 class="article-title">3 Tips for Running in the Rain</h2>
+           <p class="article-explanation">By Christine Luff</p>
+           <hr>
+           <p class="article-p"> Rainy weather doesn't mean you have to take your runs inside. Most races are not canceled because of rain. You should take advantage of opportunities to run in the rain. Doing so builds mental toughness, and you'll feel more mentally prepared if it rains on race day. Try these tips to make sure you're prepared for running in the rain, whether it's for training or a race.<br><br>
+           <strong>Wear a Hat With a Brim</strong> <br>
+           A hat with a brim can be your best friend during a rainy run. It will keep the rain off your face so you can see, even in a downpour. Make sure you consider the temperature and other conditions when you choose your brimmed hat. If it's warm and rainy, wear a breathable one with plenty of venting so you don't overheat. If it's cold, rainy, and windy, choose a thicker hat and wear a fleece headband over it to protect your ears. A headband can also help keep it from blowing off in a gust of wind.<br><br>
+           <strong>Dress in Layers If It's Cold</strong><br>
+           If it's very cold and rainy, you may need to wear a couple of layers. The most important layer is the one closest to your body. Make sure it's a technical fabric such as polypropylene or CoolMax, which wick water and sweat away from your skin.2﻿ Your outer layer should be a wind- and water-resistant jacket or vest. Don't wear a waterproof rain slicker because it will trap moisture and heat.<br><br>
+           <strong>Don't Overdress</strong><br>
+           Overdressing is one the biggest mistakes runners make when heading out for a rainy run. Wearing more layers will not keep you dry. Unless you're running with an umbrella over your head, you will definitely get wet. If you have tons of layers on, you will just be wearing more wet, heavy clothing.<br><br>
+           </p>
+
+           
+           
+       </div>
+       <div class="upcoming-events"></div>
+       <div class="contact-box">
+           <section class="container-map">
+                <img class="contact-map" src="/Lesson11/img/Icons/contact-map.png" alt="Contact map">
+                <div class="contact-text">
+                     <span class="contact-box-title"><img class="location-icon" src="/Lesson11/img/Icons/location-icon.jpg" alt="location icon">
+                     <strong>South-Weather</strong></span><br>
+                     <span>South Blvd 85I52 IDAHO</span> <br><br>
+                     <span>&#x260E; Phone Number: 085 - 2562 2632</span><br>
+                     <span>&#9993; E-mail: <a class="email-link" href="contact@blue-weather.com">contact@south-weather.com</a></span><br>
+                     <a href="https://www.facebook.com/"><img src="/Lesson11/img/Icons/facebook-icon.png" alt="icon of facebook"></a>
+                     <a href="https://www.instagram.com/"><img src="/Lesson11/img/Icons/instagram-icon.png" alt="icon of instagram"></a>
+                     <a href="https://twitter.com/"><img src="/Lesson11/img/Icons/twitter-icon.png" alt="icon of twitter"></a>
+                     <a href="https://www.youtube.com/"><img src="/Lesson11/img/Icons/youtube-play-icon.png" alt="icon of youtube"></a>
+                
+                </div>
+            </section>    
+        </div>
+</main>
+<footer>
+
+        <p class="copyright">&copy;2020 Martin Quintero | Argentina
+        <a class="footer-link" href="http://www.byui.edu/online"> BYU Online </a></p>
+      
+        <div class="footer-date">
+        <script>
+        document.write(CurrentDate());
+        </script>
+        </div>
+        <p class="copyright">Weather data provided by <a class="footer-link" href="https://openweathermap.org/">openweathermap.org</a></p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="/Lesson11/js/webfontload.js"></script>
+<script src="/Lesson11/js/windchill.js"></script>
+</body>
+
+</html>

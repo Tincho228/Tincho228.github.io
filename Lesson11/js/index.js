@@ -23,11 +23,11 @@ fetch(requestURL)
         let town_rainfall = document.createElement("p");
         /* populating elements */
         if (towns[i].name == "Fish Haven"){
-          town_image.src = "/Lesson9-Preston/img/Home/Fish Haven.jpg";}
+          town_image.src = "/Lesson11/img/Home/Fish Haven.jpg";}
         if (towns[i].name == "Preston"){
-          town_image.src = "/Lesson9-Preston/img/Home/Preston.jpg";}
+          town_image.src = "/Lesson11/img/Home/Preston.jpg";}
         if (towns[i].name == "Soda Springs"){
-          town_image.src = "/Lesson9-Preston/img/Home/Soda Springs.jpg";}
+          town_image.src = "/Lesson11/img/Home/Soda Springs.jpg";}
         town_name.textContent = towns[i].name;
         town_motto.textContent = towns[i].motto;
         town_yearfounded.textContent = "Year Founded: " + towns[i].yearFounded;

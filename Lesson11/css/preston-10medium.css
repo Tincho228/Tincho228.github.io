@@ -126,6 +126,8 @@
     .aboutUs h3 {
         width:95%;
     }
-
+    .event-image {
+        max-width:466px;
+    }
 }
 

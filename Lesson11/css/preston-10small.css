@@ -426,6 +426,7 @@ figure {
 
 /* UPCOMING EVENTS IN PRESTON */
 .event-image {
+    width:90%;
     display:block;
     margin:auto;
     box-shadow: 0 0 20px 0px black;

@@ -92,7 +92,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#07e8a1', end
 .header-motto {
     text-align: center;
     font-style: italic;
-    color: #0788E8;
+    color: #004375;
     margin-left: 20px;
     padding-right: 5px;
 
@@ -123,12 +123,12 @@ main {
     display: none;   
     padding: 10px;
     margin-bottom:5px;
-    background-color:rgba(143,202,230,.5);
+    background-color:rgb(227,241,248);
 }
 .article-box {   
     padding: 10px;
     margin-bottom:5px;
-    background-color:rgba(143,202,230,.5);
+    background-color:rgb(227,241,248);
     font-size: 16px;
 }
 .img-article{
@@ -138,7 +138,7 @@ main {
     box-shadow: 0 0 20px 0px black;
 }
 .article-title {
-    margin: 0 10px 3px 10px;
+    margin: 0 10px 10px 10px;
 }
 .article-explanation {
     margin: 0 10px 8px 10px;
@@ -231,9 +231,6 @@ footer{
 
 footer p {
     margin: 10px 0 5px 0;
-}
-.footer-date {
-    margin: 0 0 10px 0;
 }
 .footer-link {
     color:white;
@@ -418,6 +415,7 @@ figure {
     padding-bottom: 10px;
 }
 .link-design {
+    line-height:48px;
     list-style:none;
 }
 .link-design a {
@@ -438,9 +436,10 @@ figure {
 .event-title {
     text-align:center;
     margin-top: 0;
-    padding-top: 20px;
+    padding: 20px 0 20px 0;
+    background-color: #5f90c078;
 }
 .upcoming-events {
-    background-color: #c7e4f2;
+    background-color: rgb(227,241,248);
     padding-bottom: 20px;
 }

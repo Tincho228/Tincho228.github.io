@@ -70,7 +70,7 @@ fetch(apiURLforecast)
         if(intro){
             // date //
         var unixtime = new Date (parseFloat(jsObject.list[i].dt) * 1000);
-        var daysofweek = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
+        var daysofweek = new Array("Sun","Mon","Tue","Wed","Thu","Fri","Sat");
         var currentday = daysofweek[unixtime.getDay()];
             // image-icon //
         const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[i].weather[0].icon + '.png';

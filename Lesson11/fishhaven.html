@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Fish Haven weather forecast">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/Lesson11/css/normalize.css">
@@ -176,10 +177,8 @@ While fishing itself isn't necessarily going to get your heart rate up, many of 
         <p class="copyright">&copy;2020 Martin Quintero | Argentina
         <a class="footer-link" href="http://www.byui.edu/online"> BYU Online </a></p>
       
-        <div class="footer-date">
-        <script>
-        document.write(CurrentDate());
-        </script>
+        <div id="footer-date">
+            <script src="/Lesson11/js/weatherdate.js"></script>
         </div>
         <p class="copyright">Weather data provided by <a class="footer-link" href="https://openweathermap.org/">openweathermap.org</a></p>
 </footer>

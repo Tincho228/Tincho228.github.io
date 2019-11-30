@@ -1,0 +1,71 @@
+/* Media Query for medium + screens */
+
+/*Hamburguer button confgiguration*/
+
+@media only screen and (min-width: 60em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	.navigation li a {
+		color: white;
+	}
+	.header-img {
+        width: 150px;
+        height: auto;
+    }  
+    .header-name{
+        font-size: 35px;
+    }
+    .header-motto {
+		font-size: 20px;
+	}
+	.main-title {
+		font-size: 24px;
+	}
+	footer, main{
+		margin: auto 10%;
+	}
+	.img-article {
+	max-width: 500px;
+	float: left;
+	margin-right: 20px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	}
+	.article-title {
+		margin-top: 25px;
+	}
+	.container-map {
+		display:flex;
+
+	}
+	.contact-map {
+		display: block;
+		border: 2px solid black;
+		margin:auto;
+		box-shadow: 5px 9px 9px black;
+		margin-right:25px;
+	}
+    .contact-text {
+		margin:auto;
+		text-align: left;
+		margin-left:25px;
+		
+	}
+	.container {
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-column-gap:30px;
+		grid-row-gap: 30px;
+	}
+	.gallery-title {
+		font-size:24px;
+	}
+}
+

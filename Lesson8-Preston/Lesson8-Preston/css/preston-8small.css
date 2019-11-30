@@ -21,7 +21,6 @@ nav {
 	
 }
 .navigation {
-    margin-block-start: 0;
 	list-style: none;
 	text-align: center;
 	padding: 0;
@@ -92,7 +91,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#07e8a1', end
 .header-motto {
     text-align: center;
     font-style: italic;
-    color: #004375;
+    color: #0788E8;
     margin-left: 20px;
     padding-right: 5px;
 
@@ -123,12 +122,12 @@ main {
     display: none;   
     padding: 10px;
     margin-bottom:5px;
-    background-color:rgb(227,241,248);
+    background-color:rgba(143,202,230,.5);
 }
 .article-box {   
     padding: 10px;
     margin-bottom:5px;
-    background-color:rgb(227,241,248);
+    background-color:rgba(143,202,230,.5);
     font-size: 16px;
 }
 .img-article{
@@ -138,7 +137,7 @@ main {
     box-shadow: 0 0 20px 0px black;
 }
 .article-title {
-    margin: 0 10px 10px 10px;
+    margin: 0 10px 3px 10px;
 }
 .article-explanation {
     margin: 0 10px 8px 10px;
@@ -157,7 +156,7 @@ hr {
     padding: 20px;
     margin: 5px 0 5px 0;
     background-color: #66d9ff;
-    font-size: 16px;
+    font-size: 18px;
 }
 .contact-box-title {
     font-size:24px;
@@ -175,12 +174,7 @@ hr {
 .location-icon {
     width:18px;
 }
-.email-link {
-    text-decoration: none;
-}
-.email-link:hover{
-   font-weight:bold;
-}
+
 /*HERO DIVISION*/
 
 .hero-ph {
@@ -237,13 +231,13 @@ footer{
 footer p {
     margin: 10px 0 5px 0;
 }
+.footer-date {
+    margin: 0 0 10px 0;
+}
 .footer-link {
     color:white;
     text-decoration: none;
     padding-left: 4px;
-}
-.footer-link:hover {
-    font-weight:bold;
 }
 /* font-family: 'Roboto', sans-serif;
            font-family: 'PT Serif', serif;*/
@@ -295,29 +289,23 @@ figure {
     margin:0;
     box-shadow: 5px 5px 4px 1px #c1bbbb;
 }
-
+.image-box:hover {box-shadow: 0 0 50px #333;}
 
 /****************STORM CENTER CODE*********/
 .main-title-storm {
-    text-align: center;
-    letter-spacing: 1px;
-    word-spacing: 2px;
-    font-size: 25px;
-    color: #0040ff;
-    margin-top: 5px;
-    margin-bottom: 30px;
+text-align: center;
+letter-spacing: 1px;
+word-spacing: 2px;
+font-size: 25px;
+color: #0040ff;
 }
-.subtitle {
-    font-weight: bold;
-    font-size: 16px;
-}
+
 .wrapperform {
-    margin: 5%;
+    margin: 10%;
     padding: 15px;
     border-radius: 5px;
-    background-color: #6bd2d4b3;
-    box-shadow: 6px 6px 9px 0px #3a8284;
-    font-size:14px;
+    background-color: #33deb8;
+    
 
 }
 .inputfield {
@@ -339,8 +327,7 @@ figure {
     width:85%;
 }
 .danger {
-    display:block;
-    margin-bottom: 5px;
+    margin:5px;
 }
 .submitbutton {
     width:100%;
@@ -352,7 +339,7 @@ figure {
     color: #004aea5c;
     text-align: center;
     font-size: 50px;
-    margin:30px auto;
+    margin:0 auto;
 }
 .thankyou-title2 {
     text-align:center;
@@ -365,133 +352,4 @@ figure {
 .thankyou-return a {
     text-decoration: none;
     color: blacK;
-}
-/* INDEX PAGE CONFIGURATION  */
-.three-towns {  
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-gap: 5px;
-}
-.three-towns section:nth-of-type(1) { grid-row: 3; }
-.three-towns section:nth-of-type(2) { grid-row: 1; }
-.three-towns section:nth-of-type(3) { grid-row: 2; }
-
-.three-towns section {
-    background-color:rgba(143,202,230,.5);
-
-}
-.infoDiv h2 {
-    margin-bottom:10px;
-    color: #0788e8;
-}
-.infoDiv p {
-    margin-top:5px;
-    margin-bottom:20px;
-}
-.mottoDiv {
-    font-size: 15px;
-    font-style: italic;
-    color: #0788e8;
-}
-.town-image {
-    display:block;
-    width: 90%;
-    margin:15px auto;
-    box-shadow: 0 0 13px 0px rgb(101, 52, 216);
-}
-.infoDiv {
-    width:80%;
-    margin:auto;
-    text-align: center;
-}
-.aboutUs {
-    width:100%;
-    margin-top:5px;
-    background-color:rgba(143,202,230,.5);
-}
-.aboutUs h3 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width:90%;
-    margin:auto;
-}
-.aboutUs p {
-    width:90%;
-    margin:auto;
-}
-.aboutUs ul {
-    padding-bottom: 10px;
-    margin:0;
-}
-.link-design {
-    line-height:48px;
-    list-style:none;
-}
-.link-design a {
-    text-decoration: none;
-}
-
-/* UPCOMING EVENTS IN PRESTON */
-.event-image {
-    width:90%;
-    display:block;
-    margin:auto;
-    box-shadow: 0 0 20px 0px black;
-
-}
-.event-info {
-    text-align:center;
-}
-.event-title {
-    text-align:center;
-    margin-top: 0;
-    padding: 20px 0 20px 0;
-    background-color: #5f90c078;
-}
-.upcoming-events {
-    background-color: rgb(227,241,248);
-    padding-bottom: 20px;
-}
-.history-towns {
-    box-sizing: border-box;
-    border: 5px solid #bbdef2;
-}
-.history-h2 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 90%;
-    margin: auto;
-}
-.history-author {
-    width:90%;
-    margin:auto;
-    padding: 5px;
-    font-style:italic;
-}
-.history-link a {
-    text-decoration:none;
-}
-.history-link a:hover {
-    font-weight:bold;
-}
-.history-p {
-    width:90%;
-    margin:auto;
-    padding:5px;
-}
-.history-img {
-    display:block;
-    width:90%;
-    margin:auto;
-    padding:10px 10px 1px 10px;
-}
-.town-label {
-    width:90%;
-    margin:auto;
-    padding:0;
-    background-color: #32deb766;
-    text-indent: 5px;
-}
-.history-wrapper {
-    margin-bottom:10px;
 }

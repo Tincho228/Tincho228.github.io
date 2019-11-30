@@ -136,4 +136,7 @@
     .history-h2, .history-author, .history-p, .history-img{
         width:95%;
     }
+    .town-label {
+        width:95%;
+    }
 }

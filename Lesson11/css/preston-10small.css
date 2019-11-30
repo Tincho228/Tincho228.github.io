@@ -472,5 +472,8 @@ figure {
     padding:10px;
 }
 .town-label {
-    padding:0 20px 0 20px;
+    width:90%;
+    margin:auto;
+    padding:0;
+    
 }

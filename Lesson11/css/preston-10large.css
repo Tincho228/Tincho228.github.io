@@ -120,5 +120,17 @@
 	.upcoming-events {
 		margin:auto;
 	}
+	.history-towns {
+        max-width: 1200px;
+		margin: 5px auto;
+		display: grid;
+    	grid-template-columns: 1fr 1fr;
+    }
+    .history-h2, .history-author, .history-p{
+		width:95%;
+	}
+	.history-img{
+		width:70%;
+	}
 }
 

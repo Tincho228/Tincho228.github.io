@@ -129,5 +129,11 @@
     .event-image {
         max-width:466px;
     }
+    .history-towns {
+        max-width: 600px;
+    margin: 5px auto;
+    }
+    .history-h2, .history-author, .history-p, .history-img{
+        width:95%;
+    }
 }
-

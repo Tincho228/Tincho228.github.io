@@ -47,14 +47,15 @@ ul li.active a {
 .button {
 	display:block;
 	text-align: right;
-	font-size:25px;
+	font-size:30px;
 	color:#F2BF80;
 }
 body {
-	background-image: url(/final-project/images/home-header-small.jpg);
+	/*background-image: url(/final-project/images/home-header-small.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
+	background-attachment: fixed;*/
+	background-color:#373737;
 }
 /* HEADER CONFIGURATION*/
 .home-nav {
@@ -117,7 +118,7 @@ hr {
 	display:block;
 	width: 30%;
 	margin:20px auto;
-	margin-bottom:50px;
+	margin-bottom:30px;
 }
 /*SUMMARY TEMPLE INFORMATION*/
 .temple1-info {
@@ -247,6 +248,10 @@ hr {
 }
 #date-link {
 	margin-bottom:10px;
+}
+.copyright a {
+	color:rgb(241, 169, 169);
+	text-decoration:none;
 }
 /*TEMPLE PAGE CONFIGURATION*/
 .wrapper-section {

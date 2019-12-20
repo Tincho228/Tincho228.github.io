@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="contact information including an embedded Google map, showing the company headquarter">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/final-project/css/temple-small.css">
+    <link rel="stylesheet" href="/final-project/css/temple-medium.css">
+    <link rel="stylesheet" href="/final-project/css/temple-large.css">
+    <link rel="shortcut icon" href="/final-project/images/icons/imagen1_logo_QuW_icon.ico">
+    <link rel="stylesheet" href="/final-project/css/normalize.css">
+    <script src="/final-project/js/main.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+
+<header>
+    <section class="wrapper-header">
+    <img class="header-logo" src="/final-project/images/header-logo.png" alt="header-logo">
+    <h1 class="header-title">Temple Inn and Suits</h1>
+    <img class="header-4stars" src="/final-project/images/5873869ef3a71010b5e8ef41.png" alt="four stars logo">
+    <p class="header-motto">a place out of time</p>
+    <hr>
+    </section>
+</header>      
+<nav class="home-nav">
+        <ul class="navigation">
+                    <li class="btn"><a href="#" onclick="toggleMenu()"><span class="button">&#9776;</span></a></li>
+                    <li class="btn active"><a href="/final-project/html/index.html">Home</a></li>
+                    <li class="btn"><a href="/final-project/html/temple.html">Temple</a></li>
+                    <li class="btn"><a href="/final-project/html/reservation.html">Reservation</a></li>
+                    <li class="btn"><a href="/final-project/html/services.html">Services</a></li>
+                    <li class="btn"><a href="/final-project/html/contact.html">Contact</a></li>            
+        </ul>
+</nav>
+<main>
+   <section class="wrapper-contact">
+        <h2 class="contact-title">Contact</h2>
+
+        <section class="head-quarters">
+            
+            <img class="img-quarters" src="/final-project/images/Contact/quarters.jpg" alt="image of head quarters">
+            <div>
+            <h3 class="contact-title">Our Head Quarters</h3>
+            <p class="contact-p">Were located at 4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+            <p class="contact">&#x260E; Phone Number: 085 - 2562 2632</p>
+            <p class="contact">&#9993; E-mail: <a class="email-link" href="#">admin@templinn.com</a></p>
+            <hr><br>
+            </div>
+            <div class="box-link">
+                <img class="location-icon" src="/final-project/images/icons/marcador-de-posicion.png" alt="location icon">
+                <span><a  class="contact-link" href="https://goo.gl/maps/LowwNeUmbR3rNtbZA">You can find us in Google Maps</a></span>
+            </div>
+            <br>
+            <div class="box-google"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.396372725248!2d-77.09528258247438!3d38.98344916624444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1576856820239!5m2!1ses-419!2sar" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe></div>
+            <br>
+        </section>
+        
+   </section>
+   <div class="wrapper-form">  
+        <section class="header-form">
+            <h3 class="suite-title">Contact Us for more details</h3>
+        </section>
+       
+        <form class="suite-form" action="/final-project/html/thankyou-missionary.html" method="get">
+    
+        <section class="section-form">
+            <h3 class="form-subtitle">Personal information</h3>
+            <label><p>Full name </p><input class="input-form" type="text" name="full name" pattern="[A-Za-z\s]{5,}" autocomplete="off" required></label>
+            <label><p>E-mail </p><input class="input-form" type="email" name="email" placeholder=" email@example.com" autocomplete="off"></label>
+            <label><p>Phone number</p><input class="input-form" type="tel" name="telephone" autocomplete="off" pattern="[0-9]+" required></label>
+            <label><p>Home State or country</p><input class="input-form" type="text" name="home state" autocomplete="off" required></label>
+        </section>
+
+        <section class="section-form">
+            <h3 class="form-subtitle">Comments</h3>
+            <label><p>Make your comment</p><textarea rows="4" cols="40" class="input-form" required></textarea></label>
+            <br>
+            <input type="submit" value="&#9755 Send your message" class="send-button">
+            <br>
+        </section>
+            </form>
+            
+    </div>
+
+    
+        
+</main>
+<footer>
+<section class="footer-box">
+    <p class="copyright">&copy;2019 Martin Quintero | Argentina </p>
+    <p class="copyright">CIT 230 - Final Porject</p>
+    
+      
+    <div id="date-link">
+        <script src="/final-project/js/date.js"></script>
+    </div>
+</section>
+       
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+<script src="/final-project/js/webfontload.js"></script>
+
+</body>
+
+</html>

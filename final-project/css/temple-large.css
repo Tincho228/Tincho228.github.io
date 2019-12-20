@@ -1,0 +1,135 @@
+@media only screen and (min-width: 60em) {
+	.navigation {
+		margin: auto;
+		display:flex;
+		justify-content: flex-end;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		margin:0;
+		border:none;
+		display: block;
+	}
+	.navigation li a {
+		text-align:center;
+		font-size:17px;
+        color: white;
+	}
+	.header-logo {
+		margin-top:70px;
+	}
+	.header-title {
+		font-size:70px;
+	}
+	.header-motto {
+		font-size: 22px;
+	}
+	.header-4stars {
+		max-width: 250px;
+	}
+	.offert-p {
+		font-size:18px;
+	}
+	.offert, hr {
+		width:80%;
+		margin:auto;
+	}
+	.temple-news {
+		width:80%;
+		margin:auto;
+	}
+	.temple1-contact {
+		width:80%;
+	}
+	.temple1-info {
+		width:100%;
+	}
+	.temple1-title {
+		width:80%;
+	}
+	.temple-summary-p {
+		width:100%;
+	}
+	.temple-card {
+		width:80%;
+	}
+	.all-blocks {
+		display:grid;
+		grid-template-columns: 1fr 1fr;
+	}
+	.third-block {
+		top: 50px;
+		left:200px;
+		width:20%;
+	}
+	.temple1 {
+		
+		width:auto;
+	}
+	.button-right {
+		top: 47%;
+		right:25%;
+	}
+	.button-left {
+		top: 47%;
+		left: 25%;
+	}
+	/*RESERVATION PAGE*/
+	.wrapper-form {
+		width:80%;
+	}
+	.personal-information {
+		width:30%;
+	}
+	.location {
+		width:30%;
+
+	}
+	.comments {
+		width:30%;
+	}
+	.submit-button {
+		border-radius: 10px;
+		width:90%;
+		margin:auto;
+	}
+	/*SERVICES PAGE*/
+	.wrapper-services {
+		width:80%;
+		display:flex;
+		flex-wrap: wrap;
+	}
+	.amenities {
+		width:45%;
+	}
+	.subpages {
+		margin-left:10%;
+	}
+	/*RECEPTION PAGE*/
+	.wrapper-reception {
+		width:80%;
+		grid-template-areas: 
+		'wedding wedding hall'
+		'guests food hall'
+		'planner moon moon';
+	}
+	.normal {
+		display:block;
+	}
+	.wrapper-missionary {
+		width:80%;
+		margin:auto;
+	}
+	.suit-form {
+		width:80%;
+	}
+	.thankyou-form {
+		width:80%;
+	}
+	/*CONTACT PAGE*/
+	.wrapper-contact {
+		width:80%;
+	}
+}

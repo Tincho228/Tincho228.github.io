@@ -1,0 +1,110 @@
+{
+    "temples" : [
+    {
+      "name": "Cedar City Utah Temple",
+      "photo": "/final-project/images/cedar_city_utah_temple_lds.jpeg",
+      "address": "280 South Cove Dr Cedar City UT 84720 United States",
+      "telephone": "(1)435-572-4150",
+      "email": "cedartemple@temples.lds",
+      "services": [
+        "Clothing rental available", 
+        "No cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+      ],
+      "history" : [
+        "6 April 2013 - Announced",
+        " 8 August 2015 - Groundbreaking ",
+        " 10 December 2017 - Dedicated"
+      ],
+      "ordinance_schedule": "Initiatory",
+      "session_schedule": "7:00 AM - 8:00 PM",
+      "temple_closure_schedule": [
+        "Monday, 23 December 2019 - Wednesday, 25 December 2019",
+        " Monday, 30 December 2019 - Tuesday, 31 December 2019"
+      ]
+
+    },
+    {
+      "name": "Chicago Illinois Temple",
+      "photo": "/final-project/images/chicago-illinois-lds-temple.jpg",
+      "address": "4151 W Lake Ave Glenview IL 60025-1240 United States",
+      "telephone": "(1) 847-299-6500",
+      "email": "chicagotemple@temples.lds",
+      "services": [
+        "Clothing rental available", 
+        "No cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+      ],
+      "history" : [
+        "1 April 1981 - Announced",
+        " 13 August 1983 - Groundbreaking",
+        " 9 August 1985 - Dedicated",
+        " 8 October 1989 - Rededicated"
+      ],
+      "ordinance_schedule":"Baptism",
+      "session_schedule": [
+        "12:00 PM - 4:00 PM", "Church Groups - Appointments Only", 
+        "4:00 PM - 8:00 PM", "Walk-ins and Appointments"
+      ],
+      "temple_closure_schedule": [
+        "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+        " Tuesday, 31 December 2019"
+      ]
+    },
+    {
+      "name": "Atlanta Georgia Temple",
+      "photo": "/final-project/images/atlanta-georgia-lds.jpg",
+      "address": "6450 Barfield Rd NE Sandy Springs GA 30328-4283 United States",
+      "telephone": "(1) 770-393-3698",
+      "email": "atlantatemple@temples.lds",
+      "services": [
+        "No clothing rental available", 
+        "No cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+      ],
+      "history" : [
+        " 2 April 1980 - Announced",
+        " 7 March 1981 - Groundbreaking",
+        " 1 June 1983 - Dedicated",
+        " 14 November 1997 - Rededicated",
+        " 1 May 2011 - Rededicated" 
+      ],
+      "ordinance_schedule":"Baptism", 
+      "session_schedule":"12:00 PM - 3:30 PM -Church Groups - Walk-ins and Appointments",
+      "temple_closure-schedule": [
+        "Tuesday, 24 December 2019",
+        " Wednesday, 25 December 2019",
+        " Tuesday, 31 December 2019"
+      ]
+    },
+    {
+      "name": "Manhattan New York Temple",
+      "photo": "/final-project/images/manhattan_temple_lds.jpeg",
+      "address": "125 Columbus Ave, Fourth Floor New York NY 10023-6514 United States",
+      "telephone": "(1) 917-441-8220",
+      "email": "manhattantemple@temples.lds",
+      "services": [
+        "Clothing rental available", 
+        "No cafeteria available",
+        "No patron housing available",
+        "Distribution center nearby"
+      ],
+      "history" : [
+        " 7 August 2002 - Announced",
+        " 23 September 2002 - Groundbreaking",
+        " 13 June 2004 - Dedicated"
+      ],
+      "ordinance_schedule":"Sealing",
+      "session_schedule":"For sealing information and schedule, please call the temple.",
+      "temple_closure_schedule": [
+        "Tuesday, 24 December 2019",
+        " Wednesday, 25 December 2019",
+        " Tuesday, 31 December 2019"
+      ]
+    }
+    
+   ]
+  }

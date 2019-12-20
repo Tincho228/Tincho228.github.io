@@ -1,0 +1,138 @@
+@media only screen and (min-width: 32.5em) {
+.header-logo {
+    max-width: 150px;
+}
+.header-title {
+    font-size: 40px;
+}
+.header-motto {
+    font-size:18px;
+    margin-top: 10px;
+}
+
+.temple-summary-home {
+    border-radius: 10px;
+    margin:5px auto;
+}
+.offert {
+    display:grid;
+    grid-template-columns: 20% 60% 20%;
+}
+.reserve-img {
+    width:80%;
+    margin:30px auto;
+}
+.offert-p {
+    text-align:left;
+}
+.temple1-info {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+/*TEMPLE CONFIGURATION*/
+.first-block, .second-block {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.third-block {
+    position:absolute;
+    top:50px;
+    left:50px;
+    width:40%;
+}
+.box-title {
+    margin-top:0;
+}
+.weather-text {
+    background-color:#a5825796;;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.form-reservation {
+    display:flex;
+    flex-wrap:wrap;
+}
+.personal-information {
+    width:48%;
+}
+.location {
+    width:48%;
+}
+.comments {
+    width:98%;
+}
+.input-form {
+    width:90%;
+}
+/*SERVICES PAGE*/
+.subpages {
+    justify-content: right;
+    margin-left:3%;
+}
+/*RECEPTION PAGE*/
+.wedding { grid-area: wedding; }
+.hall { grid-area: hall; }
+.food { grid-area: food; }
+.guests { grid-area: guests; }
+.moon { grid-area: moon; }
+.wedding-planner{ grid-area: planner;}
+.wrapper-reception {
+    display:grid;
+    grid-template-areas:
+    'wedding wedding'
+    'hall food'
+    'guests moon'
+    'planner planner';
+    grid-gap:10px;
+    margin:auto;
+}
+.wedding-planner {
+    display:block;
+    text-align:center;
+}
+.wedding {
+    width:100%;
+}
+.change-view {
+    margin: auto;
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-gap:5px;
+}
+p.medium {
+    font-size: 25px;
+}
+/*MISSIONARY PAGE*/
+.suite {
+    width:95%;
+    
+    margin:10px auto;
+}
+.middleview {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.changesuite {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color:white;
+}
+.hide {
+    display:block;
+}
+.img-suite {
+    margin:20px auto;
+}
+/*CONTACT PAGE*/
+.head-quarters {
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap:10px;
+}
+.box-google {
+   padding:10px;
+}
+.img-quarters {
+    margin:20px auto;
+}
+}

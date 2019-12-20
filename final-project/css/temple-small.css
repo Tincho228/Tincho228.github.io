@@ -1,0 +1,643 @@
+.navigation {
+    margin-block-start: 0;
+	list-style: none;
+	text-align: center;
+	padding: 0;
+}
+
+.navigation li {
+	display: none;
+	border: 1px solid #F2BF80;
+
+}
+.navigation li:first-child {
+	display: block;
+	border:none;
+}
+.navigation a {
+	display: block;
+	color: white;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    cursor:pointer;
+}
+ul li.active a {
+	color: white;
+	font-weight: bold;
+	background-color: rgba(242, 191, 128, .4);	
+}
+.navigation a:hover {
+	font-weight: bold;
+    color: white;
+	background-color: rgba(242, 191, 128, .4);
+	text-shadow: 0px 1px 16px white;
+}
+.responsive li {
+	display: block;	
+}
+.header-logo {
+	display: block;
+    margin: auto;
+	width: 20%;
+	opacity: 1;
+  	transition: 0.3s;
+}
+.button {
+	display:block;
+	text-align: right;
+	font-size:25px;
+	color:#F2BF80;
+}
+body {
+	background-image: url(/final-project/images/home-header-small.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+/* HEADER CONFIGURATION*/
+.home-nav {
+	position:absolute;
+	top:0;
+	right:0;
+	width:70%;
+}
+.header-title {
+	text-align: center;
+	margin:auto;
+	font-family: 'Grand Hotel', cursive;
+	font-size: 35px;
+	font-style:italic;
+	color:white;
+}
+.header-motto {
+	text-align: center;
+	color:white;
+	margin-top: 0;
+	margin-bottom:50px;
+	font-family: 'Roboto Slab', serif;
+	font-style: italic;
+}
+
+.header-logo {
+	margin-top:45px;
+	width: 40%;
+}
+.header-4stars{
+	display:block;
+	margin:auto;
+	width:80px;
+}
+.title-offert {
+	color:white;
+	width:95%;
+	margin:auto;
+	font-family:'Source Sans Pro', sans-serif;
+	text-align:center;
+}
+hr {
+	width: 95%;
+}
+.header-35 {
+	width: 80px;
+	display:block;
+	margin:auto;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+.offert-p {
+	width:95%;
+	color:white;
+	margin:auto;
+	font-family: 'Roboto Slab', serif;
+	text-align: center;
+}
+.reserve-img {
+	display:block;
+	width: 30%;
+	margin:20px auto;
+	margin-bottom:50px;
+}
+/*SUMMARY TEMPLE INFORMATION*/
+.temple1-info {
+	width:95%;
+	border: 2px solid white;
+	margin:10px auto;
+	border-radius:10px;
+}
+.temple1-title {
+	width:95%;
+	margin:auto;
+	font-family: 'Roboto Slab', serif;
+	color:white;
+	margin-top:10px;
+	text-align: center;
+	background-color: #401a11;
+}
+.temple1-box-title {
+	width:100%;
+	margin:auto;
+	font-family: 'Roboto Slab', serif;
+	color:white;
+	margin-top:10px;
+	text-align: center;
+	background-color: #401a11;
+	border-radius: 10px 10px 0 0 ;
+}
+.temple1 {
+	width:95%;
+	display:block;
+	margin:5px auto;
+	box-shadow: 0 0 20px white;
+}
+.temple-summary {
+	color:white;
+    background-color: #bf8c606b;
+	padding: 10px;
+	text-align:center;
+	font-family:'Roboto Slab', serif;
+}
+.temple-summary-p {
+	width:95%;
+	margin:20px auto;
+	border-radius: 10px;
+	background-color:#bf8c606b;
+	color:white;
+}
+.temple-summary-p h1 {
+	font-family: 'Roboto Slab', serif;
+	padding-top:20px;
+    margin:10px;
+}
+.temple-summary-p p {
+	margin:10px;
+	padding-bottom: 20px;
+	font-family: 'Roboto Slab', serif;
+}
+
+.temple-summary-home {
+	color:white;
+	background-color: #bf8c606b;
+	padding: 10px;
+	text-align:left;
+	font-family:'Roboto Slab', serif;
+}
+.subtitle-summary {
+	color: #F2DEC4;
+	font-size:18px;
+}
+.contact-map{
+	display:none;
+}
+.temple1-contact{
+	color:white;
+	width:95%;
+	border: 2px solid white;
+	margin:5px auto;
+	border-radius:10px;
+	display:grid;
+	grid-template-columns: 20% 80%;
+}
+.social-box{
+	margin:10px auto;
+	background-color: #988373d9;
+    border-radius: 10px;
+}
+.contact-box{
+	position:relative;
+	top:15%;
+	text-align:center;
+	padding:10px;
+	font-family:'Roboto Slab', serif;
+}
+.social-media {
+	width:50px;
+	display:block;
+	margin: 10px 10px;
+}
+.social-media-location {
+	width: 30px;
+	margin-right: 5px;
+}
+.contact-box-title {
+	font-family:'Grand Hotel', cursive;
+	margin:10px;		
+	font-size: 30px;
+}
+.email-link{
+	color:rgb(241, 169, 169);
+	text-decoration: none;
+	
+}
+.email-link:hover {
+	color:gray;
+	font-weight:bold;
+}
+/*Footer configuration*/
+.footer-box{
+	font-family: 'Roboto Slab', serif;
+	color:white;
+	width:100%;
+	margin: 15px 0 5px 0;
+	background-color: #bf8c606b;
+	border-top: 2px solid #e2ceb6;
+	border-bottom: 2px solid #e2ceb6;
+	text-align:center;
+}
+#date-link {
+	margin-bottom:10px;
+}
+/*TEMPLE PAGE CONFIGURATION*/
+.wrapper-section {
+	position:relative;
+}
+.box-title {
+	width:100%;
+	padding:5px 0 5px 0;
+	font-family: 'Roboto Slab', serif;
+	color:white;
+	text-align: center;
+	background-color: #401a11;
+	
+}
+.box-summary {
+	width:95%;
+	margin:20px auto;
+	border-radius: 10px;
+	background-color:#bf8c606b;
+	color:white;
+}
+.box-summary p {
+
+	padding:10px;
+	margin:0;
+}
+.temple-card {
+	display:none;
+	width:95%;
+	border: 2px solid white;
+	margin:10px auto;
+	border-radius:10px;
+}
+.button-right {
+	position: absolute;
+    top: 15%;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+	opacity: 0.8;
+	background-color: #f2bf80;
+	border: 1px solid #f2bf80;
+	border-radius: 50px;
+	color:white;
+}
+.button-left {
+	position: absolute;
+    top: 15%;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+	opacity: 0.8;
+	background-color: #f2bf80;
+	border: 1px solid #f2bf80;
+	border-radius: 50px;
+	color:white;
+}
+.button-left:hover {
+	background-color:#e5a1a1d4;
+	opacity: 1;
+}
+.button-right:hover {
+	background-color:#e5a1a1d4;
+	opacity: 1;
+}
+.first-block, .second-block, .third-block{
+	font-family: 'Roboto Slab', sans-serif;
+}
+/*RESERVATION CONFIGURATION*/
+.wrapper-form {
+	background-color: #f2bf80c4;
+	color:black;
+	width:95%;
+	border: 2px solid white;
+	margin:10px auto;
+	border-radius:10px;
+}
+.form-title {
+	border-radius:10px 10px 0 0;
+	margin:0;
+	font-family: 'Roboto Slab', serif;
+	color:white;
+	text-align: center;
+	background-color: #401a11;
+	padding:20px;
+
+}
+.desk-bell {
+	display:block;
+	margin:auto;
+	padding-top:10px;
+}
+.header-form {
+	margin-bottom:20px;
+}
+.form-reservation {
+	font-family: 'Roboto Slab', serif;
+}
+.personal-information {
+	border-radius:10px;
+	background-color: white;
+	width:95%;
+	margin:10px auto;
+
+}
+.personal-information p {
+	margin:10px 10px 0 10px;
+}
+.input-form {
+	margin:10px;
+	width:95%;
+	font-family: 'Roboto Slab', serif;
+}
+.form-subtitle {
+	margin:0;
+	border-radius:10px 10px 0 0;
+	font-family: 'Roboto Slab', serif;
+	color:white;
+	text-align: center;
+	background-color: #401a11;
+	padding:10px;
+
+}
+.location {
+	border-radius:10px;
+	background-color: white;
+	width:95%;
+	margin:10px auto;
+}
+.location p {
+	margin:10px 10px 0 10px;
+}
+.comments{
+	border-radius:10px;
+	background-color: white;
+	width:95%;
+	margin:10px auto;
+
+}
+.comments p {
+	margin:10px 10px 0 10px;
+}
+.submit-button {
+	display: block;
+    background-color: #BF6545;
+    border: 2px solid #bf6545;
+    color: white;
+    width: 100%;
+    height: 40px;
+	border-radius: 0px 0px 10px 10px;
+	font-size: 20px;
+	font-family:'Roboto Slab', serif;
+}
+/*RESERVATION THANK- YOU */
+.thankyou-title{
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+}
+.thankyou-p {
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+}
+/*SERVICES PAGE*/
+.services-nav{
+	margin-top:20px;
+}
+.subpages{
+	margin-block-start: 0;
+	margin-block-end: 0;
+	list-style-type:none;
+	display:flex;
+	justify-content: center;
+	padding:0;
+}
+.subpages li {
+	border-right:2px solid white;
+	border-top: 2px solid white;
+	border-radius: 10px 0 0 0;
+	display:block;
+	padding:10px;
+	
+}
+.subpages li a {
+	text-decoration: none;
+	color:white;
+	font-family: 'Roboto', sans-serif;
+    cursor:pointer;
+}
+.subpages li.activated  {
+	color: white;
+	font-weight: bold;
+	background-color:#d0a470;
+	border-left:2px solid white;
+	border-right:2px solid white;
+	border-top:2px solid white;
+	border-radius:10px 10px 0 0;
+}
+
+/*------------------------------------------------------------*/
+.amenities {
+	border-radius:10px;
+	background-color: #887568a8;
+	width:95%;
+	margin:10px auto;
+	color:white;
+	font-family:'Roboto Slab', serif;
+}
+.amenities ul li{
+	padding:5px;
+}
+.amenities-title {
+	margin:0;
+	border-radius:10px 10px 0 0;
+	font-family: 'Roboto Slab', serif;
+	color:white;
+	text-align: center;
+	background-color: #401a11;
+	padding:10px;
+}
+.wrapper-services {
+	background-color: #7f644d9e;
+	color:black;
+	width:95%;
+	border: 2px solid white;
+	margin:auto;
+	border-radius:10px;
+}
+/*RECEPTION PAGE*/
+.wrapper-reception{
+	color:white;
+	width:95%;
+	margin:auto;
+	border:2px solid white;
+	border-radius: 10px;
+	font-family:'Roboto Slab', serif;
+}
+.wedding, .hall, .food, .guests, .moon, .wedding-planner{
+	background-color:#887568a8;
+	border-radius:10px
+
+}
+.img-wedding {
+	display:block;
+	width:90%;
+	margin:5px auto;
+	box-shadow: 0px 0px 20px #a2a2a2;
+}
+.wedding-title {
+	padding:5px;
+	text-align:center;
+	background-color:#401a11d4;
+}
+.wedding-p {
+	padding:10px;
+	text-align:center;
+	font-style:italic;
+}
+.medium {
+	font-size:25px;
+}
+.changetext {
+	text-align: center;
+    font-size: 20px;
+    
+}
+.wedding-button {
+	display:block;
+	margin:auto;
+}
+/*MISSIONARY PAGE*/
+.wrapper-missionary {
+	color:white;
+	width:95%;
+	margin:auto;
+	border:2px solid white;
+	border-radius: 10px;
+	font-family:'Roboto Slab', serif;
+}
+.img-suite{
+	display:block;
+	width:90%;
+	margin:5px auto;
+	box-shadow: 0px 0px 20px #a2a2a2;
+}
+.hide {
+	display:none;
+}
+.suite-title {
+	font-family:'Roboto Slab', serif;
+	color:white;
+	padding:5px;
+	text-align:center;
+	background-color:#401a11d4;
+}
+.suite {
+	background-color:#887568a8;
+	border-radius:10px
+}
+.suite-p {
+	text-align: center;
+	padding:10px;
+}
+.emphasis {
+	font-size:25px;
+	padding-bottom:20px;
+}
+.suite-list {
+	text-indent: 20px;
+	padding-bottom:10px;
+}
+.suite-list li {
+	padding: 10px;
+    margin:8px;
+}
+.suite-form {
+	font-family: 'Roboto Slab', serif;
+}
+.section-form {
+		border-radius:10px;
+		background-color: white;
+		width:95%;
+		margin:10px auto;
+}
+.section-form p {
+	margin:10px 10px 0 10px;
+}
+.send-button {
+	display: block;
+    background-color: #BF6545;
+    border: 2px solid #bf6545;
+    color: white;
+    width: 100%;
+    height: 40px;
+	font-size: 20px;
+	font-family:'Roboto Slab', serif;
+}
+.thankyou-form {
+	background-color: #f2bf80c4;
+	color:black;
+	width:95%;
+	border: 2px solid white;
+	margin:auto;
+	border-radius:10px;
+}
+/*CONTACT PAGE*/
+.wrapper-contact {
+	color:white;
+	width:95%;
+	margin:auto;
+	border:2px solid white;
+	border-radius: 10px;
+	font-family:'Roboto Slab', serif;
+}
+.img-quarters {
+	display:block;
+	width:90%;
+	margin: auto;
+	box-shadow: 0px 0px 20px #a2a2a2;
+}
+.contact-title {
+	padding:5px;
+	text-align:center;
+	background-color:#401a11d4;
+}
+.head-quarters {
+	background-color:#887568a8;
+	border-radius:10px
+}
+.contact-p {
+	text-align: left;
+	width:90%;
+	margin:25px auto;
+}
+.box-google {
+	width:90%;
+	height:250px;
+	margin:auto;
+}
+.box-link , .contact{
+	width:90%;
+	margin:auto;
+	
+}
+.location-icon {
+	width:30px;	
+}
+.contact-link  {
+	color:white;
+	text-decoration: none;
+}
+.contact-link:hover {
+	color:rgb(241, 169, 169);
+}

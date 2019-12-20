@@ -37,7 +37,7 @@
     <div class="wrapper-form">  
     <section class="header-form">
         <h2 class="form-title">Hotel Reservation</h2>
-        <img class="desk-bell" src="/final-project/images/icons/Desk Bell - 640x536.png" alt="desk bell">
+        <img class="desk-bell" src="/final-project/images/icons/Desk-Bell.png" alt="desk bell">
     </section>
 
         
@@ -46,16 +46,20 @@
 
     <section class="personal-information">
         <h3 class="form-subtitle">1- Personal information</h3>
-        <label><p>Full name </p><input class="input-form" type="text" name="full name" pattern="[A-Za-z\s]{5,}" autocomplete="off" required></label>
-        <label><p>E-mail </p><input class="input-form" type="email" name="email" placeholder=" email@example.com" autocomplete="off"></label>
-        <label><p>Phone number</p><input class="input-form" type="tel" name="telephone" autocomplete="off" pattern="[0-9]+" required></label>
-        <label><p>Home State or country</p><input class="input-form" type="text" name="home state" autocomplete="off" required></label>
+        <p>Full name </p>
+        <label><input class="input-form" type="text" name="full name" pattern="[A-Za-z\s]{5,}" autocomplete="off" required></label>
+        <p>E-mail </p>
+        <label><input class="input-form" type="email" name="email" placeholder=" email@example.com" autocomplete="off"></label>
+        <p>Phone number</p>
+        <label><input class="input-form" type="tel" name="telephone" autocomplete="off" pattern="[0-9]+" required></label>
+        <p>Home State or country</p>
+        <label><input class="input-form" type="text" name="home state" autocomplete="off" required></label>
     </section>
 
     <section class="location">
-        
-        <label><h3 class="form-subtitle">2- Your Stay</h3>
-        <p>Location</p>    
+        <h3 class="form-subtitle">2- Your Stay</h3>
+        <p>Location</p>
+        <label>
         <select name="location" class="input-form">
             <option value="" disabled selected>Select a location</option>
             <option value="Cedar City - Utah">Cedar City - Utah</option>
@@ -63,11 +67,12 @@
             <option value="Chicago Illinois">Chicago - Illinois</option>
             <option value="Atlanta - Georgia">Atlanta - Georgia</option>
         </select></label>
-
-        <label><p>Check In</p><input class="input-form" type="date" name="chek in" autocomplete="off" ></label>
-        <label><p>Check out</p><input class="input-form" type="date" name="check out" autocomplete="off" ></label>
-
-        <label><p>Adults</p><input class="input-form" list="adults">
+        <p>Check In</p>
+        <label><input class="input-form" type="date" name="chek in" autocomplete="off" ></label>
+        <p>Check out</p>
+        <label><input class="input-form" type="date" name="check out" autocomplete="off" ></label>
+        <p>Adults</p>
+        <label><input class="input-form" list="adults">
         <datalist id="adults">
           <option value="1">
           <option value="2">
@@ -76,8 +81,8 @@
           <option value="5">
           <option value="6">
         </datalist></label>
-
-        <label><p>Children</p><input class="input-form" list="children">
+        <p>Children</p>
+        <label><input class="input-form" list="children">
         <datalist id="children">
             <option value="1">
             <option value="2">
@@ -86,8 +91,8 @@
             <option value="5">
             <option value="6">
             </datalist></label>
-
-        <label><p>Number of rooms</p><input class="input-form" list="number-rooms">
+        <p>Number of rooms</p>
+        <label><input class="input-form" list="number-rooms">
         <datalist id="number-rooms">
             <option value="1">
             <option value="2">
@@ -100,8 +105,8 @@
             <option value="9">
             <option value="10">
         </datalist></label>    
-
-        <label><p>Type of Rooms</p>
+        <p>Type of Rooms</p>
+        <label>
         <select name="room" class="input-form">
             <option value="" disabled selected>Select a room</option>
             <option value="Single">Single</option>
@@ -112,9 +117,10 @@
 
     <section class="comments">
         <h3 class="form-subtitle">3- Special accomodation comments</h3>
-        <label><p>Comments</p><textarea rows="4" cols="40" class="input-form"></textarea></label>
+        <p>Comments</p>
+        <label><textarea rows="4" cols="40" class="input-form"></textarea></label>
         <br>
-        <input type="submit" value="&#9755 Send reservation" class="submit-button large">
+        <input type="submit" value="&#9755; Send reservation" class="submit-button large">
     </section>
         </form>
         

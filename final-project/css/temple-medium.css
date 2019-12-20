@@ -30,6 +30,7 @@
     grid-template-columns: 1fr 1fr;
 }
 /*TEMPLE CONFIGURATION*/
+
 .first-block, .second-block {
     display:grid;
     grid-template-columns: 1fr 1fr;

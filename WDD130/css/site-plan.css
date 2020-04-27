@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url("https://fonts.googleapis.com/css?family=Lato|Vidaloka&display=swap");
 
 :root {
-    --primary-color: #396E94;
-    --secondary-color: #E7C24F;
-    --accent1-color: #A43312;
+    --primary-color: #1A535C;
+    --secondary-color: #d66161;
+    --accent1-color: #FFE66D;
     --accent2-color: white;
-    --heading-font: "IM Fell French Canon SC";
-    --paragraph-font: Lato, Helvetica, sans-serif
+    --heading-font: 'Vidaloka', serif;
+    --paragraph-font: 'Lato', sans-serif;
 }
 
 html {
@@ -26,23 +26,23 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: ;
+    color: var(--primary-color) ;
 }
 
 header {
     padding: 1em;
     text-align: center;
     color: var(--accent2-color);
-    background-color: ;
+    background-color: var(--primary-color) ;
 }
 
 header>h1 {
-    color: ;
+    color: var(--accent2-color) ;
 }
 
 p {
     font-family: var(--paragraph-font);
-    color: ;
+    color: var(--primary-color) ;
     padding: 1em;
 }
 
@@ -64,10 +64,12 @@ p {
 
 .primary {
     background-color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
 .secondary {
     background-color: var(--secondary-color);
+    color: var(--accent2-color);
 }
 
 .accent1 {
@@ -78,8 +80,13 @@ p {
     background-color: var(--accent2-color);
 }
 
+.colored {
+    background-color: var(--secondary-color);
+    color:var(--accent2-color);
+}
+
 nav {
-    background-color: ;
+    background-color: var(--primary-color) ;
     line-height: 3em;
     text-align: center;
     font-size: 1.2em;
@@ -96,10 +103,10 @@ nav a {
 }
 
 nav a:link, nav a:visited {
-    color:  ;
+    color: var(--accent2-color) ;
 }
 
 nav a:hover {
-    color: ;
-    background-color: ;
+    color: var(--primary-color) ;
+    background-color: var(--accent1-color);
 }

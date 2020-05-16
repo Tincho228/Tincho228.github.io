@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Vidaloka&display=swap");
+
+h1, h2 {
+  font-family: 'Vidaloka', serif;
+}
+a, p {
+  font-family: 'Lato', sans-serif;
+}
+* {
+    margin:0;
+    padding:0;
+  }
+
+  /* HEADER CONFIGURATION */
+
+  header, main, footer {
+    width:100%;
+    max-width:960px;
+    margin:auto;
+  }
+  header {
+    background-color:#1A535C;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+  }
+  header img {
+    width:50px;
+    height:50px;
+    margin-left:10px;
+  }
+  header h1 {
+    margin:10px;
+    color:white;
+  }
+  header nav {
+    margin-left:auto;
+    margin-right:10px;
+  }
+  header nav ul li {
+    display:inline-block;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color:white;
+    padding:10px 10px;
+  }
+  header nav ul li a:hover{
+    background-color: #FFE66D;
+    color:#1A535C;
+    border-radius: 5px;
+    transition:.5s;
+  }
+
+  /* MAIN CONFIGURATION */
+
+  main .section-one, .section-two {
+    display:flex;
+    justify-content: space-evenly;
+    margin: 25px auto;
+  }
+  main .section-one div, main .section-two div {
+    width:40%;
+    flex:none;
+  }
+  main .section-one img, main .section-two img {
+    width:40%;
+  }
+  main .section-three {
+    background-color: #d66161;
+    color:white;
+    max-width:87%;
+    margin:20px auto;
+  }
+  main .section-three h2 {
+    padding-top:20px;
+  }
+  main .section-three p {
+    width:95%;
+    margin:auto;
+    padding-bottom:20px;
+  }
+  main h2 {
+    text-align:center;
+    margin:20px;
+  }
+  
+  /* FOOTER CONFIGURATION */ 
+
+  footer {
+    background-color:#1A535C;
+  }
+  footer section {
+    display:flex;
+    justify-content:space-evenly;
+  }
+  footer .contact {
+    color:white;
+    margin:20px 0px;
+  }
+  footer .social {
+    margin-top:20px;
+  }
+  footer .social img {
+    margin-right:8px
+  }
+  footer .copyright {
+    text-align:center;
+    color:white;
+    padding-bottom:10px;
+  }
+  

@@ -19,7 +19,7 @@
         <h1>Temple Inn & Suites</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a class="active" href="#">Home</a></li>
                 <li><a href="#">Amenities</a></li>
                 <li><a href="#">Temple Spotlight</a></li>
                 <li><a href="#">Reservation</a></li>
@@ -27,41 +27,48 @@
         </nav>
     </header>
 
-    <main> <!-- The main is divided into three sections -->
-        <div>
-            <img src="/WDD130/project/images/hero.jpg" alt="Hero image">
+    <main> <!-- The main is divided into two columns and four rows -->
+
+        <div class="hero"> <!-- First row -->
+            <img src="/WDD130/project/images/hero_big.jpg" alt="Hero image">
+            <div class="action">
+                <h3>15% Off in Suites</h3>
+                <button>Reserve Now!</button>
+            </div>
         </div>
-        <section class="section-one">
-            <div>
+
+        <div class="text_left"> <!-- Second row -->
                 <h2>Your Home Away from Home</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident magni beatae quia. Minima, obcaecati? Accusantium, explicabo dignissimos<br>
                     necessitatibus voluptatibus illo, eaque voluptatem fugit atque adipisci, quibusdam cupiditate asperiores beatae laboriosam. Lorem ipsum dolor sit,<br>
                     amet consectetur adipisicing elit. Architecto error tempore repudiandae alias quo laudantium, accusamus libero iusto laborum aliquam molestias odit <br>
                     culpa placeat perferendis ullam cupiditate reprehenderit quis numquam!
                 </p>
-            </div>
-            <img src="/WDD130/project/images/cordoba_temple.jpg" alt="Cordoba, Argentina Temple">
-        </section>
-        <section class="section-two">
-            <img src="images/wedding_reception.jpg" alt="Wedding reception">   
-            <div>
+        </div>
+
+        <img class="image_right" src="/WDD130/project/images/cordoba_temple.jpg" alt="Cordoba, Argentina Temple">
+        
+        <div class="text_right"> <!-- Third row -->
                 <h2>Wedding Receptions</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident magni beatae quia. Minima, obcaecati? Accusantium, explicabo dignissimos<br>
                     necessitatibus voluptatibus illo, eaque voluptatem fugit atque adipisci, quibusdam cupiditate asperiores beatae laboriosam. Lorem ipsum dolor sit,<br>
                     amet consectetur adipisicing elit. Architecto error tempore repudiandae alias quo laudantium, accusamus libero iusto laborum aliquam molestias odit <br>
                     culpa placeat perferendis ullam cupiditate reprehenderit quis numquam!
                 </p>
-            </div>
-            
-        </section>
-        <section class="section-three">
+        </div>
+        
+        <img class="image_left" src="images/wedding_reception.jpg" alt="Wedding reception">   
+          
+        <div class="family_search"> <!-- Fourth row -->
+
             <h2>Family Search Center</h2>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident magni beatae quia. Minima, obcaecati? Accusantium, explicabo dignissimos<br>
                 necessitatibus voluptatibus illo, eaque voluptatem fugit atque adipisci, quibusdam cupiditate asperiores beatae laboriosam. Lorem ipsum dolor sit,<br>
                 amet consectetur adipisicing elit. Architecto error tempore repudiandae alias quo laudantium, accusamus libero iusto laborum aliquam molestias odit <br>
                 culpa placeat perferendis ullam cupiditate reprehenderit quis numquam!
             </p>
-        </section>
+        </div>
+
     </main>
 
     <footer> <!-- The footer is organized in three main boxes: Contact, info and Social Media (these two will be next to each other) 

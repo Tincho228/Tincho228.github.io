@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Volkhov&display=swap');
+
+:root {
+    --primary-color: #011627;
+    --secondary-color: #E71D36;
+    --accent1-color: #2EC4B6;
+    --accent2-color: #FF9F1C;
+    --accent3-color: #FDFFFC;
+    --heading-font: 'Volkhov', serif;
+    --paragraph-font: 'Heebo', sans-serif;
+}
+
+html {
+    background-color: var(--primary-color);
+}
+
+body {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+h1 {
+    font-family:var(--paragraph-font);
+}
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color) ;
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    color: var(--accent2-color);
+    background-color: var(--primary-color) ;
+}
+
+header>h1, .signature {
+    color: var(--accent3-color) ;
+}
+
+p {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color) ;
+    padding: 1em;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: auto;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #999;
+}
+
+.colors td {
+    width: 20%;
+    height: 3em;
+}
+
+.primary {
+    background-color: var(--primary-color);
+    color: var(--accent3-color);
+}
+
+.secondary {
+    background-color: var(--secondary-color);
+    color: var(--accent3-color);
+}
+
+.accent1 {
+    background-color: var(--accent1-color);
+    color: var(--accent3-color);
+}
+
+.accent2 {
+    background-color: var(--accent2-color);
+    color: var(--accent3-color);
+}
+
+.accent3 {
+    background-color: var(--accent3-color);
+
+}
+.colored {
+    background-color: var(--accent2-color);
+    color:var(--accent3-color);
+}
+
+nav {
+    background-color: var(--primary-color) ;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav>ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    padding: 1em;
+    min-width: 70px;
+    text-decoration: none;
+}
+
+nav a:link, nav a:visited {
+    color: var(--accent3-color) ;
+}
+
+nav a:hover {
+    color: var(--accent3-color) ;
+    background-color: var(--accent1-color);
+    padding: 17px;
+}

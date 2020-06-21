@@ -37,7 +37,7 @@ a, p, h3, button {
     margin:15px;
     color:white;
   }
-  header nav {
+  header .wrapper {
     margin-left:auto;
     margin-right:10px;
   }
@@ -63,18 +63,19 @@ a, p, h3, button {
 
   /* MAIN CONFIGURATION */
 
-  main {
+  main .home_wrapper {
     display: grid;
     grid-template-columns:1fr 1fr;
     grid-gap:30px;
-    margin-bottom:30px;
+    background-color: #fbfbfb;
+    padding-bottom:30px;
   }
-  main h2 {
+  main .home_h2 {
     text-align:center;
     padding: 5px 0;
     border-bottom:2px solid #d66161;
   }
-  main p {
+  main .home_p {
     padding: 20px 10px 0 10px;
   }
   main .hero {
@@ -178,11 +179,103 @@ a, p, h3, button {
     color:white;
     padding-bottom:10px;
   }
+  .container {
+    display:block;
+  }
+  /*AMENITIES CONFIGURATION*/
+  .amenities_wrapper {
+    background-color: #fbfbfb;
+  }
   
+  .amenities_hero {
+    position:relative;
+  }
+  .amenities_hero img{
+    width:100%;
+    display:block;
+  }
+  .subpage_title {
+    position:absolute;
+    top:40px;
+    left:77px;
+  }
+  .subpage_h2 {
+    color:white;
+    font-size:40px;
+  }
+  .subpage_p {
+    font-style:italic;
+    color:white;
+    font-size:24px;
+  }
+  main .amenities_gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 21px;
+    max-width: 918px;
+    margin: auto;
+    margin-bottom: -119px;
+    position: relative;
+    top: -140px;
+    background-color: transparent;
+  }
+  .amenities_image {
+    display:block;
+    width:100%;
+    box-shadow: 3px 3px 5px #00000094;
+  }
+  .amenities_SeeMore {
+    display:none;
+  }
   /* MEDIA QUERIES CONFIGURATION */
   
   @media screen and (max-width: 550px) {
-    main {
+    main .home_wrapper {
       display: block;
+    }
+    header nav {
+      display:none;
+    }
+    header .container {
+      margin-left:auto;
+      margin-right:10px;
+    }
+    header .wrapper:hover nav{
+      display:block;
+      position:absolute;
+      top: 61px;
+      right: 18px;
+      z-index: 1;
+      background-color: #1a535cc4;
+      padding: 20px;
+    }
+    header .wrapper:hover nav ul li {
+      display:block;
+      padding:10px 5px;
+    }
+    .bar1, .bar2, .bar3 {
+      width: 35px;
+      height: 5px;
+      background-color: #FFE66D;
+      margin: 6px 0;
+      transition: 0.4s;
+    }
+    /*AMENITIES CONFIGURATION*/
+    main .amenities_gallery {
+      grid-template-columns: 1fr 1fr;
+      grid-gap:10px;
+      max-width: 530px;
+      margin: 10px auto;
+      top:0px;
+    }
+    .amenities_parking {
+      display:none;
+    }
+    .amenities_SeeMore {
+      display:block;
+      text-align: center;
+      margin: 20px;
+      font-style: italic;
+      color: #1a535c;
     }
   }

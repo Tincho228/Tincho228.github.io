@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Temple Inn & Suites is a hotel chain headquartered in Bethesda, MD that builds and manages specialized hotel 
+    accommodations near temple locations of The Church of Jesus Christ of Latter-day Saints around the world. The owner-operated company caters to temple 
+    workers, patrons, and their families by providing specialized services and accommodations that meet the needs of those patrons. The hotel accommodations 
+    and services are available to anyone willing to abide by the terms and policies outlined by the company. The overall goal of the website project is
+    to promote and provide information about the specialized services that this hotel chain offers to meet the needs of temple patrons who come to serve 
+    in the temple or who participate in events such as sealings, weddings, receptions, and youth trips.">
+    <link rel="stylesheet" href="style.css">
+    <title>Temple Inn & Suites | Your Home Away From Home | 215-529-9999</title>
+</head>
+<body>
+
+    <header> 
+        <img src="/WDD130/project/images/Logo.jpg" alt="Logo">
+        <h1>Temple Inn & Suites</h1>
+        <div class="wrapper">
+        <div class="container">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/WDD130/project/index.html">Home</a></li>
+                <li><a href="/WDD130/project/amenities.html">Amenities</a></li>
+                <li><a href="/WDD130/project/temple_spotlight.html">Temple Spotlight</a></li>
+                <li><a class="active" href="/WDD130/project/reservation.html">Reservation</a></li>
+            </ul>
+        </nav>
+        </div>
+        
+    </header>
+
+    <main>
+        <div class="reservation_wrapper">
+            <div class="reservation_hero"> <!-- First row -->
+                <h2 class="reservation_title">Reservation</h2>
+                <img class="reservation_image" src="/WDD130/project/images/bell.jpg" alt="Image of bell">
+            </div>
+            <form action="#" method="POST">
+                <div class="personal_info">
+                    <h2 class="data">My personal Data</h2>
+                    <div class="grid">
+                        <div class="personal_section">
+                            <div class="section_box">   
+                                <label for="fname">*First name:</label><br>
+                                <input type="text" id="fname" name="fname"><br>
+                            </div>
+                            <div class="section_box">
+                                <label for="lname">*Last name:</label><br>
+                                <input type="text" id="lname" name="lname"><br>
+                            </div>
+                        </div>
+                        <label for="address">*Address:</label><br>
+                        <input type="text" id="address" name="address"><br>
+                        <div class="personal_section">
+                            <div class="section_box">
+                                <label for="city">*City:</label><br>
+                                <input type="text" id="city" name="city"><br>
+                            </div>
+                            <div class="section_box">
+                                <label for="zipcode">*Zip Code:</label><br>
+                                <input type="number" id="zipcode" name="zipcode"><br>
+                            </div>
+                        </div>
+                        <div class="personal_section">
+                            <div class="section_box">
+                                <label for="Telephone">*Phone:</label><br>
+                                <input type="tel" id="Telephone" name="telephone"><br>
+                            </div>    
+                            <div class="section_box">    
+                                <label for="email">*Email:</label><br>
+                                <input type="email" id="email" name="email" placeholder="example@mail.com"><br>
+                            </div>    
+                        </div>    
+                    </div>
+                </div>
+                <div class="personal_info">
+                    <h2 class="stay">My stay</h2>
+                    <div class="grid">
+                        <div class="personal_section">
+                            <div class="section_box">   
+                                <label for="arrival">*Arrival Date:</label><br>
+                                <input type="date" id="arrival" name="arrival"><br>
+                            </div>
+                            <div class="section_box">
+                                <label for="endstay">*End of stay:</label><br>
+                                <input type="date" id="endstay" name="endstay"><br>
+                            </div>
+                        </div>
+                        
+                        <div class="personal_section">
+                            <div class="section_box">
+                                <label for="adults">*Adults:</label><br>
+                                <input type="number" id="adults" name="adults" min="1" max="5"><br>
+                            </div>
+                            <div class="section_box">
+                                <label for="kids">*Kids:</label><br>
+                                <input type="number" id="kids" name="kids" min="1" max="5"><br>
+                            </div>
+                        </div>
+                        <div class="personal_section">
+                            <div class="section_box">
+                                <p>Type of Room:</p>
+                                <input type="radio" id="single" name="single" value="single">
+                                <label for="single">Single</label><br>
+                                <input type="radio" id="double" name="double" value="double">
+                                <label for="double">Double</label><br>
+                                <input type="radio" id="quadruple" name="quadruple" value="quadruple">
+                                <label for="quadruple">Quadruple</label>
+                            </div>    
+                               
+                        </div>    
+                    </div>
+                </div>
+                <div class="personal_info">
+                    <h2 class="descript">Description</h2>
+                    <div class="grid">
+                                <label for="arrival">Addition information:</label><br>
+                                <textarea id="description" name="description"></textarea><br>                            
+                    
+                    </div>
+                </div>
+                <input type="submit" value="Send my Reservation">
+
+            </form>
+        </div>
+        <div id="feedback">
+            <h2>Thank you!!!</h2>
+            <p>We are processing your request.</p>
+        </div>
+    </main>
+
+    <footer> <!-- The footer is organized in three main boxes: Contact, info and Social Media (these two will be next to each other) 
+                  and Copyright (single paragraph at the bottom) -->
+        <section>    
+            <div class="contact">  <!-- CONTACT INFO BOX-->
+               <p><span>&#x27A4;</span> Temple Inn & Suites Headquarters</p>
+               <p>&nbsp;&nbsp;&nbsp;&nbsp;  355 Wisconsin Avenue</p>
+               <p>&nbsp;&nbsp;&nbsp;&nbsp;  Bethesda, MD 20814</p>
+               <p><span>&#x260e;</span> 215-829-9999</p>
+               <p><span>&#9993;</span> info@templinn.com</p>
+            </div>
+            <div class="social">  <!-- SOCIAL MEDIA BOX -->
+               <a href="https://www.facebook.com/" target="_blank"><img src="/WDD130/project/images/facebook_icon.png" alt="facebook icon"></a>
+               <a href="https://www.instagram.com/" target="_blank"><img src="/WDD130/project/images/instagram_icon.png" alt="instagramm icon"></a>
+               <a href="https://www.twitter.com/" target="_blank"><img src="/WDD130/project/images/twitter_icon.png" alt="twitter icon"></a>
+            </div>
+        </section>
+        <p class="copyright"> <!-- COPYRIGHT BOX -->
+            Copyright &copy;2020 Temple Inn & Suites | All Rights Reserved | Privacy and Cookie Statement | Martin Quintero
+        </p>
+    </footer>
+    <script>
+        const feedbackElement = document.getElementById('feedback');
+        const formElement = document.forms[0];
+        formElement.addEventListener('submit', function(e) {
+        e.preventDefault();
+        feedbackElement.style.display = "block";
+        });
+    </script>
+</body>
+
+</html>

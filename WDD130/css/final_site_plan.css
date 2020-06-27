@@ -121,3 +121,7 @@ nav a:hover {
     background-color: var(--accent1-color);
     padding: 17px;
 }
+.p_wire {
+    background-color: #011627;
+    color:white;
+}

@@ -553,6 +553,7 @@ th {
     border-radius:5px;
 }
 .delete_button {
+    display:block;
     padding:3px;
     background-color:gray;
     color:white;
@@ -560,6 +561,7 @@ th {
     text-align:center;
     width:80%;
     margin:auto;
+    text-decoration: none;
 }
 .payform_container {
     display:flex;
@@ -622,4 +624,19 @@ input[type=submit] {
 }
 input[type=submit]:hover {
     background-color:#333f50;
+}
+#feedback {
+    display: none;
+    background-color: #2e75b6;
+    padding: 30px;
+    color: white;
+    font-size: 24px;
+    font-family: var(--paragraph-font);
+}
+#feedback h2, #feedback p {
+    margin-left:30%;
+}
+#feedback .signature {
+    margin-left: 70%;
+    font-size: 16px;
 }

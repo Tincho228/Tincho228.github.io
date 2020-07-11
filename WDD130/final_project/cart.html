@@ -62,73 +62,73 @@
                           <td>CPU</td>
                           <td>Gammer1</td>
                           <td>$75</td>
-                          <td><p class="delete_button">Delete</p></td>
+                          <td><a href="#" class="delete_button">Delete</a></td>
                         </tr>
                         <tr>
                           <td>CPU Cooler</td>
                           <td>Normal</td>
                           <td>$15</td>
-                          <td><p class="delete_button">Delete</p></td>
+                          <td><a href="#" class="delete_button">Delete</a></td>
                         </tr>
                         <tr>
                           <td>Motherboard</td>
                           <td>Asus</td>
                           <td>$85</td>
-                          <td><p class="delete_button">Delete</p></td>
+                          <td><a href="#" class="delete_button">Delete</a></td>
                         </tr>
                         <tr>
                           <td>Memory</td>
                           <td>Four G</td>
                           <td>$50</td>
-                          <td><p class="delete_button">Delete</p></td>
+                          <td><a href="#" class="delete_button">Delete</a></td>
                         </tr>
                         <tr>
                           <td>Storage</td>
                           <td>Hitachi 1T</td>
                           <td>$20</td>
-                          <td><p class="delete_button">Delete</p></td>
+                          <td><a href="#" class="delete_button">Delete</a></td>
                         </tr>
                         <tr>
                           <td>Video Card</td>
                           <td>Smart View</td>
                           <td>$35</td>
-                          <td><p class="delete_button">Delete</p></td>
+                          <td><a href="#" class="delete_button">Delete</a></td>
                         </tr>
                         <tr>
                           <td>Case</td>
                           <td>Ganmer2</td>
                           <td>$59</td>
-                          <td><p class="delete_button">Delete</p></td>
+                          <td><a href="#" class="delete_button">Delete</a></td>
                         </tr>
                         <tr>
                           <td>Power Supply</td>
                           <td>Remtech</td>
                           <td>$21</td>
-                          <td><p class="delete_button">Delete</p></td>
+                          <td><a href="#" class="delete_button">Delete</a></td>
                         </tr>
                         <tr>
                           <td>Optical Drive</td>
                           <td>Hemitech</td>
                           <td>$20</td>
-                          <td><p class="delete_button">Delete</p></td>
+                          <td><a href="#" class="delete_button">Delete</a></td>
                         </tr>
                         <tr>
                           <td>Operating System</td>
                           <td>AMD</td>
                           <td>$32</td>
-                          <td><p class="delete_button">Delete</p></td>
+                          <td><a href="#" class="delete_button">Delete</a></td>
                         </tr>
                         <tr>
                           <td>Monitor</td>
                           <td>LG 49 Wide</td>
                           <td>$320</td>
-                          <td><p class="delete_button">Delete</p></td>
+                          <td><a href="#" class="delete_button">Delete</a></td>
                         </tr>
                         <tr>
                           <td>External Storage</td>
                           <td>Optional</td>
                           <td>Italy</td>
-                          <td><p class="delete_button">Delete</p></td>
+                          <td><a href="#" class="delete_button">Delete</a></td>
                         </tr>
                       </table>
                       <div class="list_price_box">
@@ -216,6 +216,13 @@
                 </div>
             </section>
         </div>
+        <div id="feedback">
+            <h2>Thank you!!!</h2>
+            <p>Your payment has been approved.<br>
+               We sent you an email with delivery details.  
+            </p>
+            <p class="signature">-- CPYOU --</p>
+        </div>
     </main>
     <footer>
         <div class="footer_wrapper">
@@ -251,5 +258,13 @@
         </div>
     </footer>
 </div>
+<script>
+    const feedbackElement = document.getElementById('feedback');
+    const formElement = document.forms[0];
+    formElement.addEventListener('submit', function(e) {
+    e.preventDefault();
+    feedbackElement.style.display = "block";
+    });
+</script>
 </body>
 </html>

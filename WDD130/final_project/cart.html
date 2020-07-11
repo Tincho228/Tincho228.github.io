@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The purpose of this page is to build a desktop personal computer following a couple of steps,
+    offering prices and brief explanation along the way. 
+    Help the costumers understand what their buying according to their needs.">
+    <link rel="stylesheet" href="/WDD130/final_project/styles.css">
+    <title>Home</title>
+</head>
+<body>
+   <div class="body_wrapper">
+    <header>
+        <div class="header_wrapper">
+            <img class="header_logo" src="/WDD130/final_project/images/logo.png" alt="Logo">
+        <div class="navbar_wrapper">
+        <nav>
+            <ul>
+                <li><a href="/WDD130/final_project/index.html">
+                    <div class="nav_icon_container">
+                        <img class="nav_icon_img" src="/WDD130/final_project/images/icon_home.png" alt="Home Icon">
+                        <p class="nav_icon_title">Home</p>
+                    </div>
+                    </a></li>
+                <li><a href="/WDD130/final_project/products.html">
+                        <div class="nav_icon_container">
+                            <img class="nav_icon_img" src="/WDD130/final_project/images/icon_products.png" alt="Products Icon">
+                            <p class="nav_icon_title">Products</p>
+                        </div>
+                    </a></li>
+                <li><a href="/WDD130/final_project/cart.html">
+                            <div class="nav_icon_container active">
+                                <img class="nav_icon_img" src="/WDD130/final_project/images/icon_cart.png" alt="Cart Icon">
+                                <p class="nav_icon_title">Cart</p>
+                            </div>
+                    </a></li>
+            </ul>
+        </nav>
+        </div>
+        </div>
+    </header>
+    <main>
+        <div class="cart_main_wrapper">
+            <section class="checklist_container">
+                <div class="checklist_banner_box">
+                    <p class="banner_box_shipment">SHIPMENT</p>
+                    <h1 class="banner_box_title1">Check out</h1>
+                    <h1 class="banner_box_title2">Your List</h1>
+                    <p class="banner_box_p">Here is your list of products. Feel free to edit it.</p>
+                </div>
+                <div class="checklist_list_box">
+                    <h2 class="list_box_title">Purchase details</h2>
+                    <table>
+                        <tr>
+                          <th>Item</th>
+                          <th>Category</th>
+                          <th>Price</th>
+                          <th>Edit</th>
+                        </tr>
+                        <tr>
+                          <td>CPU</td>
+                          <td>Gammer1</td>
+                          <td>$75</td>
+                          <td><p class="delete_button">Delete</p></td>
+                        </tr>
+                        <tr>
+                          <td>CPU Cooler</td>
+                          <td>Normal</td>
+                          <td>$15</td>
+                          <td><p class="delete_button">Delete</p></td>
+                        </tr>
+                        <tr>
+                          <td>Motherboard</td>
+                          <td>Asus</td>
+                          <td>$85</td>
+                          <td><p class="delete_button">Delete</p></td>
+                        </tr>
+                        <tr>
+                          <td>Memory</td>
+                          <td>Four G</td>
+                          <td>$50</td>
+                          <td><p class="delete_button">Delete</p></td>
+                        </tr>
+                        <tr>
+                          <td>Storage</td>
+                          <td>Hitachi 1T</td>
+                          <td>$20</td>
+                          <td><p class="delete_button">Delete</p></td>
+                        </tr>
+                        <tr>
+                          <td>Video Card</td>
+                          <td>Smart View</td>
+                          <td>$35</td>
+                          <td><p class="delete_button">Delete</p></td>
+                        </tr>
+                        <tr>
+                          <td>Case</td>
+                          <td>Ganmer2</td>
+                          <td>$59</td>
+                          <td><p class="delete_button">Delete</p></td>
+                        </tr>
+                        <tr>
+                          <td>Power Supply</td>
+                          <td>Remtech</td>
+                          <td>$21</td>
+                          <td><p class="delete_button">Delete</p></td>
+                        </tr>
+                        <tr>
+                          <td>Optical Drive</td>
+                          <td>Hemitech</td>
+                          <td>$20</td>
+                          <td><p class="delete_button">Delete</p></td>
+                        </tr>
+                        <tr>
+                          <td>Operating System</td>
+                          <td>AMD</td>
+                          <td>$32</td>
+                          <td><p class="delete_button">Delete</p></td>
+                        </tr>
+                        <tr>
+                          <td>Monitor</td>
+                          <td>LG 49 Wide</td>
+                          <td>$320</td>
+                          <td><p class="delete_button">Delete</p></td>
+                        </tr>
+                        <tr>
+                          <td>External Storage</td>
+                          <td>Optional</td>
+                          <td>Italy</td>
+                          <td><p class="delete_button">Delete</p></td>
+                        </tr>
+                      </table>
+                      <div class="list_price_box">
+                        <p class="list_price_p">TOTAL: $250</p>
+                      </div>
+                </div>
+            </section>
+            <section class="payform_container">
+                <div class="payform_banner_box">
+                    <h1 class="banner_box_title1">You´re almost</h1>
+                    <h1 class="banner_box_title2">Done!!!</h1>
+                    <p class="banner_box_p">Please complete the form with your information so that we can deliver the product to your home.</p>
+                </div>
+                <div class="payform_form_box">
+                    <form action="#" method="POST">
+                        <div class="personal_info">
+                            <h2 class="form_box_title">Personal Information</h2>
+                                <div class="group_of_inputs">
+                                    <div class="input_box">   
+                                        <label for="fname">*First name:</label><br>
+                                        <input type="text" id="fname" name="fname"><br>
+                                    </div>
+                                    <div class="input_box">
+                                        <label for="lname">*Last name:</label><br>
+                                        <input type="text" id="lname" name="lname"><br>
+                                    </div>
+                                </div>
+                                <div class="input_box">    
+                                    <label for="email">*Email:</label><br>
+                                    <input type="email" id="email" name="email" placeholder="example@mail.com"><br>
+                                </div>
+                                <div class="input_box">
+                                    <label for="Telephone">*Phone:</label><br>
+                                    <input type="tel" id="Telephone" name="telephone"><br>
+                                </div>     
+                        </div>
+                        <div class="personal_info">
+                            <h2 class="form_box_title">Delivery Details</h2>
+                                <div class="input_box">   
+                                    <label for="address">*Address:</label><br>
+                                    <input type="text" id="address" name="address"><br>
+                                </div>
+                                <div class="group_of_inputs">
+                                    <div class="input_box">   
+                                        <label for="zipcode">*Zip Code:</label><br>
+                                        <input type="number" id="zipcode" name="zipcode"><br>
+                                    </div>
+                                    <div class="input_box">
+                                        <label for="country">*Country:</label><br>
+                                        <input type="text" id="country" name="lname"><br>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="personal_info">
+                            <h2 class="form_box_title">Card Details</h2>
+                            <div class="form_radio_box">
+                                <input type="radio" id="visa" name="visa" value="visa">
+                                <label for="visa">Visa</label>
+                                <input type="radio" id="master" name="master" value="master">
+                                <label for="master">Master Card</label>
+                                <input type="radio" id="american" name="american" value="american">
+                                <label for="american">American Express</label>
+                            </div>
+                            <div class="input_box">   
+                                <label for="cardname">*Name on Card:</label><br>
+                                <input type="text" id="cardname" name="cardname"><br>
+                            </div>
+                            <div class="input_box">   
+                                <label for="cardnumber">*Card number:</label><br>
+                                <input type="number" id="cardnumber" name="cardnumber"><br>
+                            </div>
+                            <div class="group_of_inputs">
+                                <div class="input_box">   
+                                    <label for="securitycode">*Security Code:</label><br>
+                                    <input type="number" id="securitycode" name="securitycode"><br>
+                                </div>
+                                <div class="input_box">
+                                    <label for="expiration">*Expiration Date:</label><br>
+                                    <input type="date" id="expiration" name="expiration"><br>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="submit" value="BUY">
+                    </form>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_wrapper">
+            <section class="column_wrapper">
+                <div class="column_left">
+                    <p class="column_title">Contact Us</p>
+                    <p class="column_p"><span>&#x27A4;</span> CPYOU</p>
+                    <p class="column_p">&nbsp;&nbsp;&nbsp;&nbsp;  1670 John Marmol Avenue</p>
+                    <p class="column_p">&nbsp;&nbsp;&nbsp;&nbsp;  Mendoza, MD 5600</p>
+                    <p class="column_p"><span>&#x260e;</span> 215-829-9999</p>
+                    <p class="column_p"><span>&#9993;</span> admin@cpyou.com</p>
+                </div>
+                <div class="column_middle">
+                    <p class="column_title">FAQ</p>
+                    <p class="column_p">Can I pick my computer at the company?</p>
+                    <p class="column_p">Is the assembly included in the price?</p>
+                    <p class="column_p">Do you do reparations?</p>
+                    <p class="column_p">Is the software installacion included?</p>
+                </div>
+                <div class="column_right">
+                    <p class="column_title">Follow us</p>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="/WDD130/final_project/images/instagram_icon.png" alt="instagram icon" class="social_media_icon"></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img src="/WDD130/final_project/images/twitter_icon.png" alt="twitter icon" class="social_media_icon"></a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="/WDD130/final_project/images/facebook_icon.png" alt="facebook icon" class="social_media_icon"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="/WDD130/final_project/images/youtube.png" alt="youtube icon" class="social_media_icon"></a>
+                </div>
+            </section>
+            <section class="copyright">
+                <p> <!-- COPYRIGHT BOX -->
+                    Copyright &copy;2020 CPYOU | All Rights Reserved | Privacy and Cookie Statement | Martin Quintero
+                </p>
+            </section>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

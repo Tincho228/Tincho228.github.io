@@ -1,0 +1,53 @@
+* {
+    padding:0;
+    margin:0;
+}
+img {
+    max-width: 100%;
+  }
+.card {
+    width: 320px;
+    margin:30px auto;
+    box-shadow: 1px 1px 4px 1px #888;
+    border-radius: 3px;
+    background-color: white;  
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    border: 1px solid #ccc;
+}
+.card p {
+    width:90%;
+    margin:20px auto;
+}
+footer {
+    width:90%;
+    margin:auto;
+    padding-bottom:20px;
+    display: flex;
+    align-items:center;
+}
+span {
+    margin-right: 0px;
+    margin-left: auto;
+    color:#888;
+    font-size: 14px;
+}
+button {
+    border: 1px solid #888;
+    background-color: white;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    padding:5px;
+    margin:0;
+    color:#888;
+    font-size: 14px;
+}
+.viewButton {
+    border-right:none;
+    border-radius: 5px 0 0 5px;
+}
+.editbutton {
+    border-radius: 0 5px 5px 0;
+}

@@ -441,8 +441,11 @@ nav ul li a {
     border-left: 1px solid white;
 } 
 .product_search_box img {
+    padding-left:3px;
+    height:23px;
+}
+.product_search_box label {
     padding-right:10px;
-    height:20px;
 }
 .product_search_box input {
     background-color:rgb(242, 242, 242);

@@ -43,8 +43,10 @@ nav ul li a {
     position:relative;
     font-family: var(--paragraph-font);
 }
-.navbar_wrapper .nav_icon_container {
-    margin-right:40px;
+.navbar_wrapper .home {
+    position:absolute;
+    right:200px;
+    top:-27px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -53,34 +55,92 @@ nav ul li a {
     display: block;
     margin: auto;
 }
-.nav_icon_title {
+.home_title {
     display:none;
 }
-.navbar_wrapper .nav_icon_container:hover {
+.navbar_wrapper .home:hover {
     background-color:#00b0f0;
-    padding: 5px 30px 5px 30px;
     border-radius:0;
+    padding-right: 30px;
+    padding-left:30px;
+    right:170px;
     transition:0.5s;
 }
-.nav_icon_container:hover .nav_icon_title {
+.home:hover .home_title {
+    display:block;
+    position: absolute;
+    background-color: #00b0f0;
+    padding: 10px;
+    width: 92px;
+    text-align: center;
+    right: 0px;
+    box-shadow: 4px 4px 2px #333f5091;
+    z-index: 1;
+}
+.active {
+    background-color:#ffc000;
+    padding-right:5px;
+    padding-left:5px;
+    border-radius:50%;
+}
+.navbar_wrapper .products {
+    position:absolute;
+    right:110px;
+    top:-27px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.navbar_wrapper .products:hover {
+    background-color:#00b0f0;
+    border-radius:0;
+    padding-right: 30px;
+    padding-left:30px;
+    right:80px;
+    transition:0.5s;
+}
+.products_title {
+    display:none;
+}
+.products:hover .products_title {
+    display:block;
+    position: absolute;
+    background-color: #00b0f0;
+    padding: 10px;
+    width: 92px;
+    text-align: center;
+    right: 0px;
+    box-shadow: 4px 4px 2px #333f5091;
+    z-index: 1;
+}
+.navbar_wrapper .cart {
+    position:absolute;
+    right:20px;
+    top:-27px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.navbar_wrapper .cart:hover {
+    background-color:#00b0f0;
+    border-radius:0;
+    padding-right: 30px;
+    padding-left:30px;
+    right:-10px;
+    transition:0.5s;
+}
+.cart_title {
+    display:none;
+}
+.cart:hover .cart_title {
     display: block;
     position: absolute;
     background-color: #00b0f0;
     padding: 10px;
     width: 92px;
     text-align: center;
-    right: -92px;
-    transition: 0.5s;
+    right: 0px;
     box-shadow: 4px 4px 2px #333f5091;
     z-index: 1;
 }
-.active {
-    background-color:rgb(255, 192, 0);
-    padding-right:5px;
-    padding-left:5px;
-    border-radius:50%;
-}
-
 /* HOME CONFIGURATION */
 .main_wrapper {
     background-color:#71c6db;

@@ -113,7 +113,6 @@ nav ul li a {
     right:20px;
     top:-27px;
     padding: 5px;
-    
 }
 .navbar_wrapper .cart:hover {
     background-color:#00b0f0;
@@ -122,6 +121,7 @@ nav ul li a {
     padding-left:30px;
     right:-5px;
     transition:0.5s;
+    
 }
 .cart_title {
     display:none;

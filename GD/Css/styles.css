@@ -1,0 +1,750 @@
+/* SCSS HEX */
+:root {
+
+--metallic-seaweed: #177e89ff;
+--midnight-green-eagle-green: #084c61ff;
+--cg-red: #db3a34ff;
+--maximum-yellow-red: #ffc857ff;
+--jet: #323031ff;
+}
+* {
+    padding:0;
+    margin:0;
+}
+html {
+    scroll-behavior: smooth;
+}
+.wrapper_header {
+    position:relative;
+}
+.background_img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+header {
+    max-width: 960px;
+    margin:auto;
+    position:relative;
+}
+.navbar_container {
+    padding:20px 10px;
+}
+.list_nav {
+    display:flex;
+    justify-content: flex-end;
+}
+.list_nav li {
+    text-decoration:none;
+    list-style-type: none;
+}
+.link_nav {
+    position:relative;
+    color:white;
+    display:block;
+    padding:10px 20px;
+    background-color:#325660;
+    border-radius:25px;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    border: 2px solid #ff8f33;
+    font-style: italic;
+}
+a.link_nav.link_contact {
+    padding-left:50px;
+    z-index:1;
+}
+a.link_nav.link_faq {
+    padding-left:50px;
+    z-index:2;
+    left:40px;
+}
+a.link_nav.link_face {
+    padding-left:50px;
+    z-index:3;
+    left:78px;
+}
+.list_nav li div {
+    display:flex;
+    align-items: center;
+}
+.navFace_icon {
+    display:block;
+    position:relative;
+    z-index:4;
+    width:40px;
+    height:40px;
+    left:121px;
+}
+
+.list_nav a:not([href]):not([tabindex]) {
+    color:white;
+}
+.list_nav a:not([href]):not([tabindex]):hover {
+    color:white;
+}
+.link_nav:hover {
+    color:white;
+    text-decoration: none;
+    background-color:#ff8f33;
+    transition: 0.5s;
+}
+.faq_titleBox {
+    display:flex;
+    max-width:417px;
+    background-color:rgb(38, 38,38);
+    border-radius: 25px;
+    color:white;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    font-style:italic;
+    margin:auto;
+    align-items: center;
+}
+.question_icon {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 8px;
+}
+.faq_title {
+    margin-bottom:0px;
+    margin:auto;
+    padding-right:30px;
+}
+.faq_container {
+    max-width: 960px;
+    display:flex;
+    margin:auto;
+    justify-content: space-evenly;
+    padding:50px 0px;
+}
+.left_column {
+    width:48%;
+}
+.right_column {
+    width:48%;
+}
+.left_column .accordion>.card:first-of-type, 
+.left_column .accordion>.card:not(:first-of-type):not(:last-of-type),
+.left_column .accordion>.card:last-of-type {
+    border: 2px solid rgb(127, 127, 127);
+    border-radius: 25px;
+    background-color: #262626;
+    margin:5px 0;
+}
+.left_column .accordion>.card:first-of-type:hover, 
+.left_column .accordion>.card:not(:first-of-type):not(:last-of-type):hover,
+.left_column .accordion>.card:last-of-type:hover {
+    border: 2px solid #ff8f33;
+    background-color: #262626;
+}
+.right_column .accordion>.card:first-of-type, 
+.right_column .accordion>.card:not(:first-of-type):not(:last-of-type), 
+.right_column .accordion>.card:last-of-type  {
+    border: 2px solid rgb(127, 127, 127);
+    border-radius: 25px;
+    background-color: #262626;
+    margin:5px 0;
+}
+.right_column .accordion>.card:first-of-type:hover, 
+.right_column .accordion>.card:not(:first-of-type):not(:last-of-type):hover, 
+.right_column .accordion>.card:last-of-type:hover  {
+    border: 2px solid #ff8f33;
+    background-color: #262626;
+}
+button.btn-link {
+    color:white;
+    font-family:'Roboto', sans-serif;
+}
+button.btn-link:hover {
+    color:#ff8f33;
+    text-decoration: none;
+}
+button.btn {
+    padding:0;
+}
+.card-body {
+    background-color:white;
+}
+.card-body span {
+    font-weight: 800;
+}
+.wallets_box {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+.wallets_box img {
+    display:block; 
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+.card-body button.btn {
+    display:block;
+    margin-right:0;
+    margin-left:auto;
+    font-family:'Roboto', sans-serif;
+}
+.faq_cellphone {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+.faq_socialHelp {
+    width:80%;
+    margin:auto;
+    display:flex;
+    justify-content: space-evenly;
+}
+.faq_socialHelp img {
+    display:block;
+    width:80%;
+}
+.p_center {
+    text-align:center;
+}
+.wrapper_moreInfo {
+    background-color: #343a40de;
+}
+.section_moreInfo {
+    max-width:960px;
+    margin:auto;
+}
+.moreInfo_title_box {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:40px;
+}
+.logo_zoom {
+    padding-bottom:30px;
+}
+.moreInfo_title {
+    color:white;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    margin-bottom:0;
+}
+.moreInfo_bodyContainer {
+    display:flex;
+    padding-bottom: 40px;
+}
+.moreInfo_leftColumn {
+    width:48%;
+}
+.moreInfo_rightColumn {
+    width:48%;
+}
+.moreInfo_leftColumn> img {
+    display:block;
+    margin:auto;
+}
+.rightColumn_socialmedia {
+    display:flex;
+    padding-left:50px;
+}
+.rightColumn_socialmedia img{
+    display:block;
+    width:70%;
+}
+.rightColumn_text {
+    padding-left:50px;
+    color: #ff8f33;
+    font-family: 'Roboto', sans-serif;
+}
+.rightColumn_text li {
+    padding-bottom: 5px;
+}
+
+/*  footer   */
+
+.background_footer {
+    background-image: url("http://ganancias-deportivas.com.ar/Images/bk_invitacion.jpg");
+    background-size:cover;
+}
+.wrapper_footer {
+    max-width: 960px;
+    margin:auto;
+}
+.footerHeader_container {
+    display: flex;
+    padding-top:50px;
+}
+.headerTitle_box {
+    width:50%;
+}
+.headerTitle_box h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    font-weight: 800;
+}
+.headerTitle_size {
+    font-size: 53px;
+}
+.headerSeparator_box {
+    width: 50%;
+}
+.boton_footer {
+    color:white;
+    display:block;
+    padding:10px;
+    background-color:var(--cg-red);
+    width:15%;
+    margin-top:20px;
+    text-align:center;
+    border-radius:5px;
+    font-family: 'Roboto', sans-serif;
+}
+.logoTitle_box {
+    display:flex;
+    align-items: center;
+    padding-top:20px;
+}
+.logoTitle {
+    color:black;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    margin-bottom:0;
+}
+.footerMail_link {
+    display:block;
+    color:black;
+    padding-left:90px;
+    padding-bottom: 85px;
+}
+.footerCopyright {
+    text-align: center;
+    padding-bottom: 20px;
+}
+.hero_title {
+    display:flex;
+    align-content: flex-end ;
+}
+.separador {
+    width:40%;
+}
+.bienvenido {
+    width:60%;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    text-align:right;
+    color:white;
+    margin:30px auto;
+    margin-right:20px;
+    z-index:2;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.bienvenido h1 {
+    font-weight:800;
+    font-size:60px;
+    margin-bottom: 0px;
+}
+.bienvenido small {
+    font-weight:800;
+    font-size:50px;
+}
+.boton_empeza {
+    color:white;
+    display:block;
+    padding:7px;
+    background-color:var(--cg-red);
+    width:30%;
+    margin-top:20px;
+    margin-left:auto;
+    text-align:center;
+    border-radius:25px;
+    font-family: 'Roboto', sans-serif;
+}
+.boton_empeza:hover {
+    text-decoration: none;
+    color:white;
+    background-color:gray;
+    transition: 0.5s;
+}
+.player {
+    position:absolute;
+    top:29px;
+    left:146px;
+    width:326px;
+    z-index:2;
+    display:block;
+}
+.billetes {
+    position:absolute;
+    top: 111px;
+    left: 82px;
+    z-index: 1;
+    width: 441px;
+}
+.wrapper_main {
+    background-image: url("http://ganancias-deportivas.com.ar//Images/bk_main.jpg");
+    background-size:cover;
+    padding-top:20px;
+}
+.wrapper_carousel {
+    background-image:url("http://ganancias-deportivas.com.ar//Images/bk_carousel.jpg");
+    box-shadow: 0 6px 8px #000000a6; 
+    background-size:cover;
+    background-position:center;
+}
+.wrapper_funciona, .wrapper_paso1{
+    position:relative;
+    margin-top:15px;
+    box-shadow: 0 6px 8px #000000a6; 
+}
+.pasoUnoTitle_box {
+    max-width:960px;
+    margin:auto;
+}
+.pasoUnoTitle_box .pasoUno_title {
+    background-color:#ff7a0d;
+    margin:50px auto;
+    border-radius:25px;
+    text-align:center;
+    padding:15px;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    width:80%;
+    font-style:italic;
+}
+.tarjetas {
+    display:flex;
+    justify-content: space-around;
+    max-width:960px;
+    margin:auto;
+    padding-bottom:50px;
+}
+.tarjeta_paso {
+    background-color:white;
+    width:26%;
+    border-radius:25px;
+    box-shadow: 5px 5px 20px 0px black;
+}
+.tarjeta_paso:hover {
+    box-shadow: 0 0 20px 11px #ff7a0d;
+}
+.tarjeta_title {
+    background-color:#ff7a0d;
+    border-radius:25px 25px 0 0 ;
+    text-align:center;
+    padding:15px;
+    font-family:Impact, 'Arial Narrow Bold', sans-serif;
+    font-style:italic;
+    color:white;
+    font-size:40px;
+}
+.tarjeta_bodycopy {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    text-align:center;
+    font-size:40px;
+    padding:30px;
+    color:rgb(31, 78, 121);
+}
+.boton_registrate {
+    text-decoration: none;
+    color:white;
+    display:block;
+    padding:7px;
+    background-color:var(--cg-red);
+    text-align:center;
+    border-radius:25px;
+    font-family: 'Roboto', sans-serif;
+    width:75%;
+    margin:auto;
+    margin-bottom:30px;
+}
+.boton_registrate:hover {
+    text-decoration: none;
+    background-color:#325660;
+    color:white;
+    transition:0.5s;
+}
+.wrapper_funciona {
+    background-image:url("http://ganancias-deportivas.com.ar//Images/bk_funciona.jpg");
+    background-size: cover;
+    background-position:center;
+}
+.container1 {
+    z-index:2;
+    display:flex;
+    max-width: 960px;
+    margin: auto;
+    padding:50px 20px;
+}
+.container_carousel {
+    z-index: 2;
+    max-width: 960px;
+    margin: auto;
+    padding: 20px 0px;
+}
+.bg_container {
+    background-color:#177e897d;
+}
+.box_texto {
+    color:whitesmoke;
+    width:50%;
+    margin:10px auto;
+    z-index: 2;
+}
+.color_black {
+    color:black;
+}
+.color_whitesmoke {
+    color:whitesmoke;
+}
+.box_video {
+    width:50%;
+    margin:10px auto;
+    position:relative;
+    z-index:2;
+}
+.box_texto h2 {
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+.box_video p, .box_texto p {
+    font-family: 'Roboto', sans-serif;
+}
+.logo_gd {
+    width:50%;
+    margin: auto;
+    display: block;
+    margin-bottom:20px;
+}
+.box_video button.btn.btn-dark {
+    width:100%;
+}
+.box_video p {
+    font-family: 'Roboto', sans-serif;
+}
+.placeholder {
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+}
+
+/*  Floating Buttons on Whatsapp */
+
+.btn-whatsapp, .btn-facebook, .btn-telegram {
+    display:block;
+    width:70px;
+    height:70px;
+    color:#fff;
+    position: fixed;
+    left:-5px;
+    border-radius:50%;
+    line-height:80px;
+    text-align:center;
+    z-index:999;
+}
+.btn-whatsapp {
+    bottom:20px;
+}
+.btn-facebook {
+    bottom:85px;
+}
+.correo {
+    text-align:center;
+    padding-top:30px;
+    padding-bottom: 20px;
+}
+.correo a {
+    color:whitesmoke;
+    text-decoration: none;
+}
+.correo a:hover {
+    color:var(--jet);
+}
+.social_media img{
+    margin-top:30px;
+    width: 44px;
+    height: 44px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .player {
+        width:219px;
+        top:0px;
+        left:-39px;
+    }
+    .billetes {
+        top:115px;
+        left:-4px;
+        width:250px;
+    }
+    .bienvenidoA {
+        font-size:20px;
+    }
+    .bienvenido {
+        margin:20px auto;
+        padding-right:10px;
+    }
+    .bienvenido p {
+        font-size:16px;
+        font-style: italic;
+    }
+    .blog {
+        font-size:40px;
+    }
+    .boton_empeza {
+        width:80%;
+        margin-top:0;
+    }
+    .container1 {
+        flex-direction: column;
+        padding:10px 0px;
+    }
+    .box_texto {
+        width:95%;
+    }
+    .box_video {
+        width:95%;
+    }
+    
+}
+
+@media only screen and (max-width: 480px) {
+.navbar_container {
+    padding-bottom:0;
+}
+.list_nav {
+    flex-direction: column;
+}
+.link_nav {
+    position: initial;
+    padding: 5px 20px;
+}
+.list_nav li div {
+    justify-content: flex-end;
+}
+.navFace_icon {
+    left: 36px;
+    display: block;
+    width: 34px;
+    height: 34px;
+}
+a.link_nav.link_faq {
+    padding-left:0;
+    text-align:right;
+    width: 57%;
+    margin-left: auto;
+}
+.list_nav a:not([href]):not([tabindex]) {
+    width:39%;
+    margin-left:auto;
+    text-align:right;
+}
+.player {
+    width:50%;
+    left:0;
+}
+.bienvenido {
+    margin:10px auto;
+    padding-right:10px;
+}
+.bienvenido h1 {
+    font-size:34px;
+}
+.boton_empeza {
+    width:80%;
+}
+.billetes {
+    top:140px;
+    width:60%;
+    left:0;
+}
+.container1 {
+    flex-direction: column;
+}
+.box_texto {
+    width: 95%;
+    margin:auto;
+}
+.box_video {
+    width:95%;
+}
+.pasoUnoTitle_box .pasoUno_title {
+    width:97%;
+    font-size:24px;
+}
+.tarjetas {
+    flex-direction: column;
+}
+.tarjeta_paso {
+    width:77%;
+    margin:auto;
+    margin-bottom:10px;
+}
+.tarjeta_title {
+    font-size:30px;
+}
+.tarjeta_bodycopy {
+    font-size: 34px;
+}
+.faq_titleBox {
+    width:98%;
+} 
+.faq_container {
+    flex-direction: column;
+}
+.faq_title {
+    text-align: center;
+    font-size:24px;
+}
+.left_column, .right_column {
+    width:98%;
+    margin:auto;
+}
+.wallets_box {
+    justify-content:center;
+}
+.moreInfo_title {
+    font-size:24px;
+}
+.moreInfo_title_box {
+    padding-right:5px;
+    padding-left:5px;
+}
+.moreInfo_bodyContainer {
+    flex-direction: column;
+}
+.moreInfo_leftColumn {
+    width:98%;
+    margin:auto;
+    padding-bottom:20px;
+}
+.flag_image {
+    width: 98%;
+    margin:auto;
+}
+.moreInfo_rightColumn {
+    width:98%;
+}
+.headerTitle_box {
+    width:80%;
+    padding-left: 20px;
+
+} 
+.headerSeparator_box {
+    width:20%;
+}
+.headerTitle_box h1 {
+    font-size:24px;
+}
+.headerTitle_size {
+    font-size:24px;
+}
+.boton_footer {
+    width:36%;
+    margin-left:20px;
+} 
+.logoTitle {
+    font-size:24px;
+} 
+.footerMail_link {
+    padding:20px;
+    font-weight:700;
+}
+}
